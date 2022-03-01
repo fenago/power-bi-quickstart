@@ -5,9 +5,6 @@
     - [Demo 1: Importing Data with Power BI Desktop](#demo-1-importing-data-with-power-bi-desktop)
   - [Lesson 3: Introduction to Data Visualization](#lesson-3-introduction-to-data-visualization)
     - [Demo 1: Visualizing Data with Power BI Desktop](#demo-1-visualizing-data-with-power-bi-desktop)
-  - [Lesson 6: Microsoft Tools for Self-Service BI](#lesson-6-microsoft-tools-for-self-service-bi)
-    - [Demo 1: Publishing a Report to the Power BI Service](#demo-1-publishing-a-report-to-the-power-bi-service)
-
 
 ## Lesson 2: Introduction to Data Analysis
 
@@ -149,42 +146,3 @@
 
 19. On the **File** menu, click **Save**.
 
-20. Leave Power BI Desktop open for the next demonstration.
-
----
-
-## Lesson 6: Microsoft Tools for Self-Service BI
-
-### Demo 1: Publishing a Report to the Power BI Service
-
-1. In Power BI Desktop, on the **Home** tab, click **Publish**.
-
-2. If you are prompted to save your changes, click **Save**.
-
-3. In the **Publish to Power BI** dialog box, ensure that **My workspace** is selected, and then click **Select**.
-
-4. The report will then be published to the Power BI portal. When the window displays **Success**, click **Open 'Adventure Works Sales.pbix' in Power BI** to view the report online. 
-
-5. When the browser opens, if you are prompted to Sign in, click **SIGN IN**, and then enter your Power BI credentials, enter your email address and password, and wait for the report to open.
-
-6. On the **Sales by Gender and Marital Status** column chart, click **Pin visual**.
-
-7. In the **Pin to dashboard** dialog box, click **New dashboard**, type **Adventure Works Sales 1**, and then click **Pin**.
-
-8. On the **Orders by Color** donut chart, click **Pin visual**.
-
-9. In the **Pin to dashboard** dialog box, click **Existing dashboard** , in the list click **Adventure Works Sales 1**, and then click **Pin**.
-
-10. On the **Sales by Month** column chart, click **Pin visual**.
-
-11. In the **Pin to dashboard** dialog box, click **Existing dashboard**, in the list click **Adventure Works Sales 1**, and then click **Pin**.
-
-12. In the left menu, expand **My Workspace**, and then under **Dashboards**, click **Adventure Works Sales 1**.
-
-13. Drag the lower-right corner of the **Sales by Month** column chart, and expand it so it is as wide as the two charts above it.
-
-14. Close Internet Explorer.
-
-15. In the **Publishing to Power BI** dialog box, click **Got it**.
-
-16. Close Power BI Desktop.

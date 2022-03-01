@@ -3,8 +3,6 @@
 - [Module 2: Introducing Power BI](#module-2-introducing-power-bi)
   - [Lesson 1: Power BI](#lesson-1-power-bi)
     - [Demo 1: Creating a Report with Power BI Desktop](#demo-1-creating-a-report-with-power-bi-desktop)
-  - [Lesson 2: The Power BI Service](#lesson-2-the-power-bi-service)
-    - [Demo 1: Creating an App](#demo-1-creating-an-app)
 
 
 ## Lesson 1: Power BI
@@ -72,61 +70,3 @@
 30. Expand the **Data colors** list, and choose another color to change the bars on the chart.
 
 31. On the **File** menu, click **Save As**. Name the report **Adventure Works Sales 2**, and save to the **D:\\Demofiles\\Mod02\\Demo** folder.
-
-32. Leave Power BI Desktop and the report open for the next demonstration.
-
----
-
-## Lesson 2: The Power BI Service
-
-### Demo 1: Creating an App
-
-1. In Power BI Desktop, on the **Home** tab, click **Publish**.
-
-2. In the **Publish to Power BI** dialog box, click **My workspace**, and then click **Select**.
-
-3. The report will be published to the Power BI portal.
-
-4. In the **Publishing to Power BI** dialog box, when the window displays **Success**, click **Open 'Adventure Works Sales 2.pbix' in Power BI** to view the report online.
-
-5. In Internet Explorer, click **SIGN IN**, enter your email address and password, click **Sign in**, and wait for the report to open.
-
-6. When the report is visible, click **Pin Live Page**.
-
-7. In the **Pin to dashboard** dialog box, click **New dashboard**.
-
-8. In the **Dashboard name** box, type **Adventure Works Sales 2**, and then click **Pin live**.
-
-9. Expand **My Workspace**, the dashboard will appear under the **Dashboards** list.
-
-10. Expand **Workspaces**, and then click **Create app workspace**.
-
-11. In the **Workspace** **name** box, type **Adventure Works Sales 2**.
-
-12. In the **Description** box, type **Top 10 selling products**, and then click **Save**.
-
-13. In the **Welcome to the Adventure Works Sales workspace** pane, under **Create new content**, in the **Files** section, click **Get**.
-
-14. Click **Local File**.
-
-15. In the **Choose File to Upload** dialog box, navigate to **D:\\Demofiles\\Mod02\\Demo**, click **Adventure Works Sales 2.pbix**, and then click **Open**.
-
-16. In the left-hand pane, expand **Workspaces**, and then click **Adventure Works Sales 2**.
-
-17. On the toolbar, click **Publish app**.
-
-18. In the **Description** box, type **My top 10 sales app**.
-
-19. Under **App theme color**, click an alternative color, and then click **Publish app**.
-
-20. In the **Adventure Works Sales 2** dialog box, click **Publish**.
-
-21. When the app is successfully published, click **Go to app** and confirm that the app loads.
-
-22. In the left-hand pane, click **Go back**, and then click **Apps**, and confirm that the **Adventure Works Sales 2** app appears in the **Apps** pane.
-
-23. Close Internet Explorer.
-
-24. In the **Publishing to Power BI** dialog box, click **Got it**, and then close Power BI Desktop.
-
-25. Close SQL Server Management Studio, without saving any changes.

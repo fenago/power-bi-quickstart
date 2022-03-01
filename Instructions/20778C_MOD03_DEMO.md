@@ -13,8 +13,6 @@
     - [Demo 1: Importing Data from SQL Server](#demo-1-importing-data-from-sql-server)
       - [Import Data from SQL Server](#import-data-from-sql-server)
       - [Import Data Using a Query](#import-data-using-a-query)
-  - [Lesson 4: The Power BI Service](#lesson-4-the-power-bi-service)
-    - [Demo 1: Querying Data by Using Q&A](#demo-1-querying-data-by-using-qa)
 
 
 ## Lesson 1: Using Excel as a Data Source for Power BI
@@ -145,43 +143,3 @@
 5. In Power Query Editor, in the **ProductSubcategoryID** column, click the filter icon, and then click **Remove Empty**.
 
 6. In the **Queries** pane, right-click **Query1**, click **Rename**, type **Products**, and then click **Close & Apply**.
-
----
-
-## Lesson 4: The Power BI Service
-
-### Demo 1: Querying Data by Using Q&A
-
-1. In Power BI Desktop, on the **Home** tab, click **Publish**.
-
-2. If the **Microsoft Power BI Desktop** dialog box appears, click **Save**.
-
-3. In the **Publish to Power BI** dialog box, click **My workspace**, and then click **Select**.
-
-4. In the **Publishing to Power BI** dialog box, when the window displays **Success**, click **Open** **'Adventure Works Sales 3.pbix'** **in Power BI** to view the report online.
-
-5. In Internet Explorer, click **SIGN IN**, enter your email address and password, click **Sign in**, and wait for the report to open.
-
-6. When the report is visible, click **Pin Live Page**.
-
-7. In the **Pin to dashboard** dialog box, click **New dashboard**, in the **Dashboard name** box, type **Adventure Works Sales 3**, and then click **Pin live**.
-
-8. Expand **My Workspace**, under **DASHBOARDS**, click **Adventure Works Sales 3**.
-
-9. Click in the **Ask a question about your data** box, and then point out the list of tables and fields that automatically appears.
-
-10. Click **sales persons**. Q&A returns a list of suggestions.
-
-11. Click **by** **city** and the table is sorted by City.
-
-12. In the Q&A box, type **show total due and country as pie chart**.
-
-13. When the chart is visible, in the top-right of the report, click **Pin visual**.
-
-14. In the **Pin to dashboard** dialog box, leave **Existing dashboard** selected, and then click **Pin**.
-
-15. Under **My Workspace**, under **DASHBOARDS**, click **Adventure Works Sales 3**. Scroll down the dashboard to display the new chart on the dashboard.
-
-16. Close Internet Explorer.
-
-17. In Power BI Desktop, in the **Publishing to Power BI** dialog box, click **Got it**, and then close Power BI Desktop.
