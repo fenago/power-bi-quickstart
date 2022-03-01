@@ -24,7 +24,7 @@
 
 #### Connect to a Database in Azure SQL Database and Import Data
 
-1. Ensure that the **MT17B-WS2016-NAT**, **20778C-MIA-DC**, and **20778C-MIA-SQL** virtual machines are running, and then log on to **20778C-MIA-SQL** as **ADVENTUREWORKS\\Student** with the password **Pa55w.rd**.
+1. Ensure that the **MT17B-WS2016-NAT**, **20778C-MIA-DC**, and **20778C-MIA-SQL** virtual machines are running, and then log on to **20778C-MIA-SQL** as **powerbi\\fenago** with the password **Pa55w.rd**.
 
 2. In the **D:\\Demofiles\\Mod06** folder, run **Setup.cmd** as Administrator.
 
@@ -34,7 +34,7 @@
 
 5. When the script completes, press any key to close the window.
 
-6. Start **Microsoft SQL Server Management Studio 18**, and then connect to the **MIA-SQL** database engine instance by using Windows® authentication.
+6. Start **Microsoft SQL Server Management Studio 18**, and then connect to the **localhost** database engine instance by using Windows® authentication.
 
 7. In the **D:\\Demofiles\\Mod06\\Demo** folder, open the **Demo.ssmssln** solution.
 

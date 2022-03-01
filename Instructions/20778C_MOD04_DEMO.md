@@ -13,7 +13,7 @@
 
 ### Demo 1: Using APPLIED STEPS
 
-1. If it is not already running, start the **MT17B-WS2016-NAT**, **20778C-MIA-DC** and **20778C-MIA-SQL** virtual machines, log on to **20778C-MIA-SQL** as **ADVENTUREWORKS\\Student** with the password **Pa55w.rd**.
+1. If it is not already running, start the **MT17B-WS2016-NAT**, **20778C-MIA-DC** and **20778C-MIA-SQL** virtual machines, log on to **20778C-MIA-SQL** as **powerbi\\fenago** with the password **Pa55w.rd**.
 
 2. On the taskbar, click **Power BI Desktop**.
 

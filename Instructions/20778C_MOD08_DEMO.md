@@ -60,7 +60,7 @@
 
 #### Import a Custom Visualization
 
-1. Log on to **20778C-MIA-SQL** as **ADVENTUREWORKS\\Student** with the password **Pa55w.rd**.
+1. Log on to **20778C-MIA-SQL** as **powerbi\\fenago** with the password **Pa55w.rd**.
 
 2. In Internet Explorer, go to **https://app.powerbi.com/visuals**.
 

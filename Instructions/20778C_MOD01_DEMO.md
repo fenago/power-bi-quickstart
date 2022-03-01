@@ -10,7 +10,7 @@
 
 ### Demo 1: Importing Data with Power BI Desktop
 
-1. Ensure that the **MT17B-WS2016-NAT**, **20778C-MIA-DC**, and **20778C-MIA-SQL** virtual machines are running, and then log on to **20778C-MIA-SQL** as **ADVENTUREWORKS\\Student** with the password **Pa55w.rd**.
+1. Ensure that the **MT17B-WS2016-NAT**, **20778C-MIA-DC**, and **20778C-MIA-SQL** virtual machines are running, and then log on to **20778C-MIA-SQL** as **powerbi\\fenago** with the password **Pa55w.rd**.
 
 2. In the **D:\\Demofiles\\Mod01** folder, run **Setup.cmd** as **Administrator**.
 
@@ -34,7 +34,7 @@
 
 12. In the **Get Data** dialog box, click **SQL Server database**, and then click **Connect**.
 
-13. In the **SQL Server database** dialog box, in the **Server** box, type **MIA-SQL**.
+13. In the **SQL Server database** dialog box, in the **Server** box, type **localhost**.
 
 14. In the **Database (optional)** box, type **AdventureWorksDW**, and then click **OK**.
 

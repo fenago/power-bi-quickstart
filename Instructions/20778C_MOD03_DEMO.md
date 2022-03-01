@@ -21,7 +21,7 @@
 
 #### Import Data from an Excel File
 
-1. Ensure that the **MT17B-WS2016-NAT**, **20778C-MIA-DC**, and **20778C-MIA-SQL** virtual machines are running, and then log on to **20778C-MIA-SQL** as **ADVENTUREWORKS\\Student** with the password **Pa55w.rd**.
+1. Ensure that the **MT17B-WS2016-NAT**, **20778C-MIA-DC**, and **20778C-MIA-SQL** virtual machines are running, and then log on to **20778C-MIA-SQL** as **powerbi\\fenago** with the password **Pa55w.rd**.
 
 2. In the **D:\\Demofiles\\Mod03** folder, run **Setup.cmd** as Administrator.
 
@@ -120,13 +120,13 @@
 
 1. On the **Home** tab, click the **Get Data** arrow, and then click **SQL Server**.
 
-2. In the **SQL Server database** dialog box, in the **Server** box, type **MIA-SQL**, in the **Database (optional)** box, type **AdventureWorks**, and then click **OK**.
+2. In the **SQL Server database** dialog box, in the **Server** box, type **localhost**, in the **Database (optional)** box, type **AdventureWorks**, and then click **OK**.
 
 3. If the **SQL Server database** dialog box appears, ensure the **Windows** tab is selected, click **Use my current credentials**, and then click **Connect**.
 
 4. If the **Encryption Support** dialog box appears, click **OK**.
 
-5. In the **Navigator** window, select the **Sales.vSalesPerson** and **Sales.vStoreWithDemographics** check boxes, and then click **Load**.
+5. In the **Navigator** window, select the **Sales.SalesPerson** and **Sales.StoreWithDemographics** check boxes, and then click **Load**.
 
 6. If the **Connection settings** window appears, ensure **Import** is selected, and then click **OK**.
 
@@ -134,11 +134,11 @@
 
 1. On the **Home** tab, click the **Get Data** arrow, and then click **SQL Server**.
 
-2. In the **SQL Server database** dialog box, in the **Server** box, type **MIA-SQL**, in the **Database (optional)** box, type **AdventureWorks**.
+2. In the **SQL Server database** dialog box, in the **Server** box, type **localhost**, in the **Database (optional)** box, type **AdventureWorks**.
 
 3. Expand **Advanced options**, and in the **SQL statement (optional, required database)** box, type **SELECT * FROM [Production].[Product]**, and then click **OK**.
 
-4. In the **MIA-SQL: AdventureWorks** window, a preview of the data is displayed, and then click **Transform Data**.
+4. In the **localhost: AdventureWorks** window, a preview of the data is displayed, and then click **Transform Data**.
 
 5. In Power Query Editor, in the **ProductSubcategoryID** column, click the filter icon, and then click **Remove Empty**.
 

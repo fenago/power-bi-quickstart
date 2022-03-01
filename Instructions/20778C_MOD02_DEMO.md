@@ -9,7 +9,7 @@
 
 ### Demo 1: Creating a Report with Power BI Desktop
 
-1. Ensure the **MT17B-WS2016-NAT**, **20778C-MIA-DC** and **20778C-MIA-SQL** virtual machines are running, log on to **20778C-MIA-SQL** as **ADVENTUREWORKS\\Student** with the password **Pa55w.rd**.
+1. Ensure the **MT17B-WS2016-NAT**, **20778C-MIA-DC** and **20778C-MIA-SQL** virtual machines are running, log on to **20778C-MIA-SQL** as **powerbi\\fenago** with the password **Pa55w.rd**.
 
 2. In the **D:\\Demofiles\\Mod02** folder, run **Setup.cmd** as Administrator.
 
@@ -19,7 +19,7 @@
 
 5. When the script completes, press any key to close the window.
 
-6. Start **Microsoft SQL Server Management Studio 18**, and connect to the **MIA-SQL** database engine instance using Windows authentication.
+6. Start **Microsoft SQL Server Management Studio 18**, and connect to the **localhost** database engine instance using Windows authentication.
 
 7. Open the **Demo.ssmssln** solution in the **D:\\Demofiles\\Mod02\\Demo** folder.
 
