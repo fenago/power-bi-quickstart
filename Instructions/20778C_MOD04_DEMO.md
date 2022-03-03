@@ -17,17 +17,13 @@
 
 2. On the taskbar, click **Power BI Desktop**.
 
-3. In the **Welcome to Power BI Desktop** window, click **Already have a Power BI account? Sign in**.
-
-4. In the **Sign in** dialog box, enter your account credentials, and then click **Sign in**.
-
-5. In the **Sign in to your account** dialog box, enter your password credentials, and then click **Sign in**.
+4. To close the getting started window, at the top-right of the window, click **X**.
 
 6. In the **Power BI Desktop** window, click **Get data**.
 
-7. In the **Get Data** dialog box, click **Azure SQL database**, and then click **Connect**.
+7. In the **Get Data** dialog box, click **SQL Server**, and then click **Connect**.
 
-8. In the **SQL Server database** window, in the **Server** box, type the URL of the Azure server **\<*Server Name*\>.database.windows.net** (where **\<*Server Name*\>** is the name of the server you created).
+8. In the **SQL Server database** window, in the **Server** box, type the URL of the Azure server **localhost**.
 
 9. In the **Database (optional)** box, type **AdventureWorksLT**, and then click **OK**.
 

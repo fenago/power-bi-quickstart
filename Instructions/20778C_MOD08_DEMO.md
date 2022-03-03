@@ -78,11 +78,7 @@
 
 9. On the Taskbar, click **Power BI Desktop**.
 
-10. In the **Welcome to** **Power BI Desktop** window, click **Already have a Power BI account? Sign in**.
-
-11. In the **Sign in** dialog box, enter your account credentials, and then click **Sign in**.
-
-12. In the **Sign in to your account** dialog box, enter your password credentials, and then click **Sign in**.
+10. To close the getting started window, at the top-right of the window, click **X**.
 
 13. In the **Power BI Desktop** window, click **Open other reports**.
 

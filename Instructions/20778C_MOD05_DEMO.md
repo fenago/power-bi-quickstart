@@ -28,9 +28,7 @@
 
 6. On the Taskbar, click **Power BI Desktop**.
 
-7. In the **Welcome to** **Power BI Desktop** window, click **Already have a Power BI account? Sign in**.
-
-8. In the **Sign in** dialog box, enter your account credentials, and then click **Sign in**.
+3. To close the getting started window, at the top-right of the window, click **X**.
 
 9. In the **Power BI Desktop** window, click **Get data**.
 

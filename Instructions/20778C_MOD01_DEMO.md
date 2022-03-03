@@ -10,7 +10,7 @@
 
 ### Demo 1: Importing Data with Power BI Desktop
 
-1. Ensure that the **MT17B-WS2016-NAT**, **20778C-MIA-DC**, and **20778C-MIA-SQL** virtual machines are running, and then log on to **20778C-MIA-SQL** as **powerbi\\fenago** with the password **Pa55w.rd**.
+1. Ensure that you have copied all folders from `Desktop/power-bi-quickstart` folder into **D:\\** drive before starting the lab.
 
 2. In the **D:\\Demofiles\\Mod01** folder, run **Setup.cmd** as **Administrator**.
 
@@ -20,15 +20,9 @@
 
 5. When the script completes, press any key to close the window.
 
-6. If you do not have a Power BI login, open Internet Explorer, go to **https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-signing-up-for-power-bi-with-a-new-office-365-trial**, and follow the steps to create an account.
-
 7. On the desktop, double-click **Power BI Desktop**.
 
-8. In the **Welcome to Power BI Desktop** window, click **Already have a Power BI account? Sign in**.
-
-9. In the **Sign in** dialog box, enter your credentials, and then click **Sign in**.
-
-10. In the **Sign in to your account** dialog box, enter your credentials, and then click **Sign in**.
+8. To close the getting started window, at the top-right of the window, click **X**.
 
 11. On the **Power BI Desktop** screen, click **Get data**.
 

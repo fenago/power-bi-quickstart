@@ -21,7 +21,7 @@
 
 #### Import Data from an Excel File
 
-1. Ensure that the **MT17B-WS2016-NAT**, **20778C-MIA-DC**, and **20778C-MIA-SQL** virtual machines are running, and then log on to **20778C-MIA-SQL** as **powerbi\\fenago** with the password **Pa55w.rd**.
+1. Ensure that you have copied all folders from `Desktop/power-bi-quickstart` folder into **D:\\** drive before starting the lab.
 
 2. In the **D:\\Demofiles\\Mod03** folder, run **Setup.cmd** as Administrator.
 
@@ -33,11 +33,7 @@
 
 6. On the taskbar, click **Power BI Desktop**.
 
-7. In the **Welcome to** **Power BI Desktop** window, click **Already have a Power BI account? Sign in**.
-
-8. In the **Sign in** dialog box, enter your account credentials, and then click **Sign in**.
-
-9. In the **Sign in to your account** dialog box, enter your password credentials, and then click **Sign in**.
+7. To close the getting started window, at the top-right of the window, click **X**.
 
 10. In the **Power BI Desktop** window, click **Get data**.
 
@@ -126,7 +122,7 @@
 
 4. If the **Encryption Support** dialog box appears, click **OK**.
 
-5. In the **Navigator** window, select the **Sales.SalesPerson** and **Sales.StoreWithDemographics** check boxes, and then click **Load**.
+5. In the **Navigator** window, select the **Sales.vSalesPerson** and **Sales.vStoreWithDemographics** check boxes, and then click **Load**.
 
 6. If the **Connection settings** window appears, ensure **Import** is selected, and then click **OK**.
 

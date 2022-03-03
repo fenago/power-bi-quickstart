@@ -16,15 +16,10 @@
 
 ### Demo 1: Adding Visualizations to a Report
 
-#### Sign up for Power BI
-
-1. If you do not have a Power BI login, open **Internet Explorer**, go to **https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-signing-up-for-power-bi-with-a-new-office-365-trial**, and follow the steps to create an account.
-
-2. Close Internet Explorer.
 
 #### Connect to a Database in Azure SQL Database and Import Data
 
-1. Ensure that the **MT17B-WS2016-NAT**, **20778C-MIA-DC**, and **20778C-MIA-SQL** virtual machines are running, and then log on to **20778C-MIA-SQL** as **powerbi\\fenago** with the password **Pa55w.rd**.
+1. Ensure that you have copied all folders from `Desktop/power-bi-quickstart` folder into **D:\\** drive before starting the lab.
 
 2. In the **D:\\Demofiles\\Mod06** folder, run **Setup.cmd** as Administrator.
 
@@ -42,17 +37,13 @@
 
 9. On the Taskbar, click **Power BI Desktop**.
 
-10. In the **Welcome to Power BI Desktop** window, click **Already have a Power BI account? Sign in**.
-
-11. In the **Sign in** dialog box, enter your account credentials, and then click **Sign in**.
-
-12. In the **Sign in to your account** dialog box, enter your password credentials, and then click **Sign in**.
+3. To close the getting started window, at the top-right of the window, click **X**.
 
 13. In the **Power BI Desktop** window, click **Get data**.
 
-14. In the **Get Data** dialog box, click **Azure SQL database**, and then click **Connect**.
+14. In the **Get Data** dialog box, click **SQL Server**, and then click **Connect**.
 
-15. In the **SQL Server database** dialog box, in the **Server** box, type the URL of the Azure server **\<*Server Name*\>.database.windows.net** (where **\<*Server Name*\>** is the name of the server that you created).
+15. In the **SQL Server database** dialog box, in the **Server** box, type the URL of the Azure server **localhost** .
 
 16. In the **Database (optional)** box, type **AdventureWorksLT**.
 
@@ -68,9 +59,9 @@
 
 22. On the **Home** tab, click **Get Data**.
 
-23. In the **Get Data** dialog box, click **Azure SQL database**, and then click **Connect**.
+23. In the **Get Data** dialog box, click **SQL Server**, and then click **Connect**.
 
-24. In the **SQL Server database** dialog box, in the **Server** box, type the URL of the Azure server **\<*Server Name*\>.database.windows.net** (where **\<*Server Name*\>** is the name of the server that you created).
+24. In the **SQL Server database** dialog box, in the **Server** box, type the URL of the Azure server **localhost** .
 
 25. In the **Database (optional)** box, type **AdventureWorksLT**.
 
