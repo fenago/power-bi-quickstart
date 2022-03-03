@@ -27,35 +27,35 @@
 
 1. On the Taskbar, click **Power BI Desktop**.
 
-8. To close the getting started window, at the top-right of the window, click **X**.
+2. To close the getting started window, at the top-right of the window, click **X**.
 
-6. In the **Power BI Desktop** window, click **Get data**.
+3. In the **Power BI Desktop** window, click **Get data**.
 
-7. In the **Get Data** dialog box, click **SQL Server**, and then click **Connect**.
+4. In the **Get Data** dialog box, click **SQL Server**, and then click **Connect**.
 
-8. In the **SQL Server database** window, in the **Server** box, type the URL of the server **localhost** .
+5. In the **SQL Server database** window, in the **Server** box, type the URL of the server **localhost** .
 
-9. In the **Database (optional)** box, type **AdventureWorksLT**.
+6. In the **Database (optional)** box, type **AdventureWorksLT**.
 
-10. Under **Data Connectivity mode**, click **DirectQuery**, and then click **OK**.
+7. Under **Data Connectivity mode**, click **DirectQuery**, and then click **OK**.
 
 
-13. In the **Navigator** dialog box, select the **SalesLT.Product** and **SalesLT.SalesOrderDetail** check boxes, and then click **Load**.
+8. In the **Navigator** dialog box, select the **SalesLT.Product** and **SalesLT.SalesOrderDetail** check boxes, and then click **Load**.
 
-14. In the **Visualizations** pane, click the **Card** icon.
+9. In the **Visualizations** pane, click the **Card** icon.
 
 ![](./images/13.png)
 
-15. In the **Fields** pane, expand the **SalesLT SalesOrderDetail** table, and drag the **OrderQty** field to the chart.
+10. In the **Fields** pane, expand the **SalesLT SalesOrderDetail** table, and drag the **OrderQty** field to the chart.
 
-16. Click the canvas, to ensure that the Card chart is not active.
+11. Click the canvas, to ensure that the Card chart is not active.
 
-17. In the **Visualizations** pane, click the **Slicer** icon.
+12. In the **Visualizations** pane, click the **Slicer** icon.
 
-18. In the **Fields** pane, expand the **SalesLT Product** table, and drag the **SellStartDate** field to the chart.
+13. In the **Fields** pane, expand the **SalesLT Product** table, and drag the **SellStartDate** field to the chart.
 
-19. Drag the slider bar to reduce the date range, and verify that the **OrderQty** value changes.
+14. Drag the slider bar to reduce the date range, and verify that the **OrderQty** value changes.
 
-20. On the **File** menu, click **Save**.
+15. On the **File** menu, click **Save**.
 
-21. In the **Save As** dialog box, go to the **D:\\Labfiles\\Lab07\\Starter** folder, in the **File name** box, type **Sales Orders**, and then click **Save**.
+16. In the **Save As** dialog box, go to the **D:\\Labfiles\\Lab07\\Starter** folder, in the **File name** box, type **Sales Orders**, and then click **Save**.

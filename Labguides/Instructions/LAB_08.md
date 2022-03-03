@@ -26,29 +26,29 @@
 
 1. On the Taskbar, click **Power BI Desktop**.
 
-3. To close the getting started window, at the top-right of the window, click **X**.
+2. To close the getting started window, at the top-right of the window, click **X**.
 
-5. In the **Power BI Desktop** window, click **Open other reports**.
+3. In the **Power BI Desktop** window, click **Open other reports**.
 
-6. In the **Open** dialog box, browse to **D:\\Labfiles\\Lab08\\Starter\\Project**, click **Adventure Works Sales.pbix**, and then click **Open**.
+4. In the **Open** dialog box, browse to **D:\\Labfiles\\Lab08\\Starter\\Project**, click **Adventure Works Sales.pbix**, and then click **Open**.
 
-7. Click **Sunburst**.
+5. Click **Sunburst**.
 
 ![](./images/14.png)
 
-8. Drag **Color** from *SalesLT Product* in **Group**.
+6. Drag **Color** from *SalesLT Product* in **Group**.
 
 ![](./images/15.png)
 
-9. Drag **SalesPerson** from *SalesLT Customer* in **Group**.
+7. Drag **SalesPerson** from *SalesLT Customer* in **Group**.
 
 ![](./images/16.png)
 
-9. Drag **OrderQty** from *SalesLT SalesOrderDetails* in **Values**.
+8. Drag **OrderQty** from *SalesLT SalesOrderDetails* in **Values**.
 
 ![](./images/17.png)
 
-10. After making all the changes, config should ike this this:
+9. After making all the changes, config should ike this this:
 
 ![](./images/18.png)
 
@@ -56,4 +56,4 @@
 
 ![](./images/19.png)
 
-14. Close Power BI Desktop, without saving any changes.
+11. Close Power BI Desktop, without saving any changes.

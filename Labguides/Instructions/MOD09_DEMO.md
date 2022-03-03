@@ -22,22 +22,22 @@
 
 7. To close the getting started window, at the top-right of the window, click **X**.
 
-10. In the **Power BI Desktop** window, click **Open other reports**.
+8. In the **Power BI Desktop** window, click **Open other reports**.
 
-11. In the **Open** dialog box, browse to **D:\\Demofiles\\Mod09\\Demo**, click **AdventureWorks Sales.pbix**, and then click **Open**.
+9. In the **Open** dialog box, browse to **D:\\Demofiles\\Mod09\\Demo**, click **AdventureWorks Sales.pbix**, and then click **Open**.
 
-12. If the **Introducing Q&A** dialog box appears, click **Got it**.
+10. If the **Introducing Q&A** dialog box appears, click **Got it**.
 
-13. On the **View** tab, click **Phone Layout**.
+11. On the **View** tab, click **Phone Layout**.
 
-14. In the **VISUALIZATIONS** pane, drag the donut chart to the phone layout and resize it to use the whole width of the phone.
+12. In the **VISUALIZATIONS** pane, drag the donut chart to the phone layout and resize it to use the whole width of the phone.
 
-15. In the **VISUALIZATIONS** pane, drag the pie chart to below the donut chart on the phone layout.
+13. In the **VISUALIZATIONS** pane, drag the pie chart to below the donut chart on the phone layout.
 
-16. In the **VISUALIZATIONS** pane, drag the Annual Sales bar chart to next to the pie chart on the phone layout.
+14. In the **VISUALIZATIONS** pane, drag the Annual Sales bar chart to next to the pie chart on the phone layout.
 
-17. On the **View** tab, click **Desktop Layout**.
+15. On the **View** tab, click **Desktop Layout**.
 
-18. On the **File** menu click **Save**.
+16. On the **File** menu click **Save**.
 
-19. Close Power BI Desktop.
+17. Close Power BI Desktop.

@@ -15,26 +15,26 @@
 
 ![](./images/25.png)
 
-9. On the Taskbar, click **Power BI Desktop**.
+4. On the Taskbar, click **Power BI Desktop**.
 
-10. To close the getting started window, at the top-right of the window, click **X**.
+5. To close the getting started window, at the top-right of the window, click **X**.
 
-13. In the **Power BI Desktop** window, click **Open other reports**.
+6. In the **Power BI Desktop** window, click **Open other reports**.
 
-14. In the **Open** dialog box, browse to **Downloads**, select downloaded pbix file, and then click **Open**.
+7. In the **Open** dialog box, browse to **Downloads**, select downloaded pbix file, and then click **Open**.
 
 ![](./images/26.png)
 
-2. In Chrome, go to **https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380752?tab=Overview**
+8. In Chrome, go to **https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380752?tab=Overview**
 
-3. Click **Download Sample**:
+9. Click **Download Sample**:
 
-13. In the **Power BI Desktop** window, click **Open other reports**.
+10. In the **Power BI Desktop** window, click **Open other reports**.
 
-14. In the **Open** dialog box, browse to **Downloads**, select downloaded pbix file, and then click **Open**.
+11. In the **Open** dialog box, browse to **Downloads**, select downloaded pbix file, and then click **Open**.
 
-15. Click on **Article** tab:
+12. Click on **Article** tab:
 
 ![](./images/27.png)
 
-4. Close Power BI Desktop, without saving any changes, and then close Internet Explorer.
+13. Close Power BI Desktop, without saving any changes, and then close Internet Explorer.

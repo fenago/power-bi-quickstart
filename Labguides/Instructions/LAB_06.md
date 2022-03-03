@@ -55,47 +55,47 @@
 
 8. To close the getting started window, at the top-right of the window, click **X**.
 
-11. In the **Power BI Desktop** window, click **Get data**.
+9. In the **Power BI Desktop** window, click **Get data**.
 
-12. In the **Get Data** dialog box, click **SQL Server**, and then click **Connect**.
+10. In the **Get Data** dialog box, click **SQL Server**, and then click **Connect**.
 
-13. In the **SQL Server database** dialog box, in the **Server** box, type the URL of the server **localhost**.
+11. In the **SQL Server database** dialog box, in the **Server** box, type the URL of the server **localhost**.
 
-14. In the **Database (optional)** box, type **AdventureWorksLT**.
+12. In the **Database (optional)** box, type **AdventureWorksLT**.
 
-15. Expand the **Advanced options** box.
+13. Expand the **Advanced options** box.
 
-16. In SQL Server Management Studio, in the **Lab Exercise 1.sql** query, copy the query under **Task 1** to the clipboard.
+14. In SQL Server Management Studio, in the **Lab Exercise 1.sql** query, copy the query under **Task 1** to the clipboard.
 
-17. In Power BI Desktop, in the **SQL statement (optional, requires database)** box, paste the query.
+15. In Power BI Desktop, in the **SQL statement (optional, requires database)** box, paste the query.
 
 ![](./images/11.png)
 
-18, Click **OK**
+16, Click **OK**
 
-19. In the data preview window, click **Load**.
+17. In the data preview window, click **Load**.
 
 ![](./images/12.png)
 
-20. On the **Home** tab, click the **Get Data** arrow, and then click **More**.
+18. On the **Home** tab, click the **Get Data** arrow, and then click **More**.
 
-21. In the **Get Data** dialog box, click **SQL Server**, and then click **Connect**.
+19. In the **Get Data** dialog box, click **SQL Server**, and then click **Connect**.
 
-22. In the **SQL Server database** dialog box, in the **Server** box, type the URL of the server **localhost**.
+20. In the **SQL Server database** dialog box, in the **Server** box, type the URL of the server **localhost**.
 
-23. In the **Database (optional)** box, type **AdventureWorksLT**.
+21. In the **Database (optional)** box, type **AdventureWorksLT**.
 
-24. Expand the **Advanced options** box.
+22. Expand the **Advanced options** box.
 
-25. In SQL Server Management Studio, in the **Lab Exercise 1.sql** query, copy the query under **Task 2** to the clipboard.
+23. In SQL Server Management Studio, in the **Lab Exercise 1.sql** query, copy the query under **Task 2** to the clipboard.
 
-26. In Power BI Desktop, in the **SQL statement (optional, requires database)** box, paste the query, and then click **OK**.
+24. In Power BI Desktop, in the **SQL statement (optional, requires database)** box, paste the query, and then click **OK**.
 
-27. In the data preview window, click **Load**.
+25. In the data preview window, click **Load**.
 
-28. On the **File** menu, click **Save**.
+26. On the **File** menu, click **Save**.
 
-29. In the **Save As** dialog box, navigate to **D:\\Labfiles\\Lab06\\Starter**, in the **File name** box, type **AdventureWorksLT Sales 6.pbix**, and then click **Save**.
+27. In the **Save As** dialog box, navigate to **D:\\Labfiles\\Lab06\\Starter**, in the **File name** box, type **AdventureWorksLT Sales 6.pbix**, and then click **Save**.
 
 #### Task 3: Shape Data
 

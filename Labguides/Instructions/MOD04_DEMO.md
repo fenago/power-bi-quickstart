@@ -17,61 +17,61 @@
 
 2. On the taskbar, click **Power BI Desktop**.
 
-4. To close the getting started window, at the top-right of the window, click **X**.
+3. To close the getting started window, at the top-right of the window, click **X**.
 
-6. In the **Power BI Desktop** window, click **Get data**.
+4. In the **Power BI Desktop** window, click **Get data**.
 
-7. In the **Get Data** dialog box, click **SQL Server**, and then click **Connect**.
+5. In the **Get Data** dialog box, click **SQL Server**, and then click **Connect**.
 
-8. In the **SQL Server database** window, in the **Server** box, type the URL of the server **localhost**.
+6. In the **SQL Server database** window, in the **Server** box, type the URL of the server **localhost**.
 
-9. In the **Database (optional)** box, type **AdventureWorksLT**, and then click **OK**.
+7. In the **Database (optional)** box, type **AdventureWorksLT**, and then click **OK**.
 
-11. In the **Navigator** window, select the **SalesLT.SalesOrderDetail** check box, and then click **Transform Data**.
+8. In the **Navigator** window, select the **SalesLT.SalesOrderDetail** check box, and then click **Transform Data**.
 
-12. On the Ribbon, in the **Query** group, click **Advanced Editor**. The window opens to display the query code. Note that no transformations have been applied yet. Click **Cancel**.
+9. On the Ribbon, in the **Query** group, click **Advanced Editor**. The window opens to display the query code. Note that no transformations have been applied yet. Click **Cancel**.
 
-13. Right-click the **SalesOrderDetailID** column, and then click **Remove**.
+10. Right-click the **SalesOrderDetailID** column, and then click **Remove**.
 
-14. In the **APPLIED STEPS** list, right-click **Removed Columns**, click **Rename**, type **Removed SalesOrderDetailID**, and then press Enter.
+11. In the **APPLIED STEPS** list, right-click **Removed Columns**, click **Rename**, type **Removed SalesOrderDetailID**, and then press Enter.
 
 ![](./images/23.png)
 
-15. In the center pane, right-click the **OrderQty** column, click **Rename**, type **OrderQuantity**, and then press Enter.
+12. In the center pane, right-click the **OrderQty** column, click **Rename**, type **OrderQuantity**, and then press Enter.
 
-16. In the **APPLIED STEPS** list, right-click **Renamed Columns**, click **Rename**, type **Renamed OrderQty**, and then press Enter.
+13. In the **APPLIED STEPS** list, right-click **Renamed Columns**, click **Rename**, type **Renamed OrderQty**, and then press Enter.
 
-17. In the center pane, click the **rowguid** column, and with the Ctrl key held down, click **ModifiedDate**.
+14. In the center pane, click the **rowguid** column, and with the Ctrl key held down, click **ModifiedDate**.
 
-18. Right-click either of the column headings, and then click **Remove Columns**.
+15. Right-click either of the column headings, and then click **Remove Columns**.
 
-19. In the **APPLIED STEPS** list, right-click **Removed Columns**, click **Rename**, type **Removed rowguid and ModifiedDate**, and then press Enter.
+16. In the **APPLIED STEPS** list, right-click **Removed Columns**, click **Rename**, type **Removed rowguid and ModifiedDate**, and then press Enter.
 
-20. On the Ribbon, in the **Query** group, click **Advanced Editor**. The window opens to display the query code. Note that the transformations have been added, and they are in the same order as the list of **APPLIED STEPS**, and then click **Cancel**.
+17. On the Ribbon, in the **Query** group, click **Advanced Editor**. The window opens to display the query code. Note that the transformations have been added, and they are in the same order as the list of **APPLIED STEPS**, and then click **Cancel**.
 
-21. In the **APPLIED STEPS** list, right-click **Removed rowguid and ModifiedDate**, and then click **Move Up**.
+18. In the **APPLIED STEPS** list, right-click **Removed rowguid and ModifiedDate**, and then click **Move Up**.
 
-22. In the **APPLIED STEPS** list, next to **Removed SalesOrderDetailID**, click the **delete** icon.
+19. In the **APPLIED STEPS** list, next to **Removed SalesOrderDetailID**, click the **delete** icon.
 
-23. In the **Delete Step** dialog box, click **Delete**. The **SalesOrderDetailID** column reappears in the table.
+20. In the **Delete Step** dialog box, click **Delete**. The **SalesOrderDetailID** column reappears in the table.
 
-24. In the **APPLIED STEPS** list, next to **Navigation**, click the **gear** icon.
+21. In the **APPLIED STEPS** list, next to **Navigation**, click the **gear** icon.
 
-25. In the **Navigation** window, click **SalesLT.SalesOrderHeader**, and then click **OK**. Note that the data preview has been updated with the **SalesLT.SalesOrderHeader** data. Also note the warning icon under **Queries [1]**.
+22. In the **Navigation** window, click **SalesLT.SalesOrderHeader**, and then click **OK**. Note that the data preview has been updated with the **SalesLT.SalesOrderHeader** data. Also note the warning icon under **Queries [1]**.
 
-26. In the **APPLIED STEPS** list, next to **Removed rowguid and ModifiedDate**, click the **delete** icon.
+23. In the **APPLIED STEPS** list, next to **Removed rowguid and ModifiedDate**, click the **delete** icon.
 
-27. In the **Delete Step** dialog box, click **Delete**.
+24. In the **Delete Step** dialog box, click **Delete**.
 
-28. In the **APPLIED STEPS** list, next to **Renamed OrderQty**, click the **delete** icon.
+25. In the **APPLIED STEPS** list, next to **Renamed OrderQty**, click the **delete** icon.
 
-29. Note that the warning is no longer displayed.
+26. Note that the warning is no longer displayed.
 
-30. On the Ribbon, in the **Query** group, click **Advanced Editor**. The window opens to display the query code. Note that the transformations have been removed, and the source table has been changed, and then click **Cancel**.
+27. On the Ribbon, in the **Query** group, click **Advanced Editor**. The window opens to display the query code. Note that the transformations have been removed, and the source table has been changed, and then click **Cancel**.
 
-31. On the Ribbon, click **Close & Apply** to return to Power BI Desktop.
+28. On the Ribbon, click **Close & Apply** to return to Power BI Desktop.
 
-32. Leave Power BI Desktop open for the next demonstration.
+29. Leave Power BI Desktop open for the next demonstration.
 
 ---
 

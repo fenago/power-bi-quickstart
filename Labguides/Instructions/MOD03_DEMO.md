@@ -31,13 +31,13 @@
 
 7. To close the getting started window, at the top-right of the window, click **X**.
 
-10. In the **Power BI Desktop** window, click **Get data**.
+8. In the **Power BI Desktop** window, click **Get data**.
 
-11. In the **Get Data** dialog box, click **Excel**, and then click **Connect**.
+9. In the **Get Data** dialog box, click **Excel**, and then click **Connect**.
 
-12. In the **Open** dialog box, navigate to **D:\\Demofiles\\Mod03\\Demo**, click **Adventure Works Sales.xlsx**, and then click **Open**.
+10. In the **Open** dialog box, navigate to **D:\\Demofiles\\Mod03\\Demo**, click **Adventure Works Sales.xlsx**, and then click **Open**.
 
-13. In the **Navigator** window, click **SalesPerson** to show a preview of the data. Use the horizontal scrollbar to display the columns, select the **SalesPerson** check box, and then click **Load**.
+11. In the **Navigator** window, click **SalesPerson** to show a preview of the data. Use the horizontal scrollbar to display the columns, select the **SalesPerson** check box, and then click **Load**.
 
 ![](./images/24.png)
 
@@ -73,11 +73,11 @@
 
 2. In the **SQL Server database** dialog box, in the **Server** box, type **localhost**, in the **Database (optional)** box, type **AdventureWorks**, and then click **OK**.
 
-4. If the **Encryption Support** dialog box appears, click **OK**.
+3. If the **Encryption Support** dialog box appears, click **OK**.
 
-5. In the **Navigator** window, select the **Sales.vSalesPerson** and **Sales.vStoreWithDemographics** check boxes, and then click **Load**.
+4. In the **Navigator** window, select the **Sales.vSalesPerson** and **Sales.vStoreWithDemographics** check boxes, and then click **Load**.
 
-6. If the **Connection settings** window appears, ensure **Import** is selected, and then click **OK**.
+5. If the **Connection settings** window appears, ensure **Import** is selected, and then click **OK**.
 
 #### Import Data Using a Query
 
