@@ -9,7 +9,7 @@
 
 ### Demo 1: Creating a Report with Power BI Desktop
 
-1. Ensure the **MT17B-WS2016-NAT**, **20778C-MIA-DC** and **20778C-MIA-SQL** virtual machines are running, log on to **20778C-MIA-SQL** as **powerbi\\fenago** with the password **Pa55w.rd**.
+1. Ensure that you have copied all folders from `Desktop/power-bi-quickstart` folder into **D:\\** drive before starting the lab.
 
 2. In the **D:\\Demofiles\\Mod02** folder, run **Setup.cmd** as Administrator.
 
@@ -42,10 +42,6 @@
 18. In the Power BI Desktop, in the **SQL statement (optional, requires database)** box, paste the query, and then click **OK**.
 
 19. In the **SQL Server database** window, click **Database**.
-
-20. In the **User name** box, type **Student**.
-
-21. In the **Password** box, type **Pa55w.rd**, and then click **Connect**.
 
 22. In the data preview window, click **Load**.
 

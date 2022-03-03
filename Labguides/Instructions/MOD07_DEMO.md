@@ -26,11 +26,8 @@
 8. In the **SQL Server database** window, in the **Server** box, type the URL of the Azure server **localhost**.
 
 9. In the **Database (optional)** box, type **AdventureWorksLT**.
+
 10. In the **Data Connectivity mode**, select **DirectQuery**, and then click **OK**.
-
-11. In the **SQL Server database** dialog box, on the **Database** tab, in the **User name** box, type **Student**.
-
-12. In the **Password** box, type **Pa55w.rd**, and then click **Connect**.
 
 13. In the **Navigator** dialog box, select the **SalesLT.Customer**, **SalesLT.Product**, **SalesLT.ProductCategory**,**SalesLT.SalesOrderDetail**, and **SalesLT.SalesOrderHeader** check boxes, and then click **Load**.
 

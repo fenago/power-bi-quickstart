@@ -13,7 +13,7 @@
 
 ### Demo 1: Using APPLIED STEPS
 
-1. If it is not already running, start the **MT17B-WS2016-NAT**, **20778C-MIA-DC** and **20778C-MIA-SQL** virtual machines, log on to **20778C-MIA-SQL** as **powerbi\\fenago** with the password **Pa55w.rd**.
+1. Ensure that you have copied all folders from `Desktop/power-bi-quickstart` folder into **D:\\** drive before starting the lab.
 
 2. On the taskbar, click **Power BI Desktop**.
 
@@ -26,8 +26,6 @@
 8. In the **SQL Server database** window, in the **Server** box, type the URL of the Azure server **localhost**.
 
 9. In the **Database (optional)** box, type **AdventureWorksLT**, and then click **OK**.
-
-10. If the **SQL Server database** dialog box appears, click **Database**. In the **Username** box, type **Student**, in the **Password** box, type **Pa55w.rd**, and then click **Connect**.
 
 11. In the **Navigator** window, select the **SalesLT.SalesOrderDetail** check box, and then click **Transform Data**.
 

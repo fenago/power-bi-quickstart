@@ -67,11 +67,11 @@
 
 16. In SQL Server Management Studio, in the **Lab Exercise 1.sql** query, copy the query under **Task 1** to the clipboard.
 
-17. In Power BI Desktop, in the **SQL statement (optional, requires database)** box, paste the query, and then click **OK**.
+17. In Power BI Desktop, in the **SQL statement (optional, requires database)** box, paste the query.
 
 ![](./images/11.png)
 
-18. If the **SQL Server database** dialog box appears, on the **Database** tab, in the **User name** box, type **Student**, in the **Password** box, type **Pa55w.rd**, and then click **Connect**.
+18, Click **OK**
 
 19. In the data preview window, click **Load**.
 

@@ -12,7 +12,7 @@
 
 ### Demo 1: Using the Power BI Embedded Playground
 
-1. Start the **MT17B-WS2016-NAT**, **20778C-MIA-DC**, and **20778C-MIA-SQL** virtual machines, and then log on to **20778C-MIA-SQL** as **Student** with the password **Pa55w.rd**.
+1. Ensure that you have copied all folders from `Desktop/power-bi-quickstart` folder into **D:\\** drive before starting the lab.
 
 2. In Internet Explorer, go to **https://microsoft.github.io/PowerBI-JavaScript/demo/v2-demo/index.html**.
 
@@ -60,7 +60,7 @@
 
 #### Import a Custom Visualization
 
-1. Log on to **20778C-MIA-SQL** as **powerbi\\fenago** with the password **Pa55w.rd**.
+1. Log on to **sql server** as **powerbi\\fenago**.
 
 2. In Internet Explorer, go to **https://app.powerbi.com/visuals**.
 

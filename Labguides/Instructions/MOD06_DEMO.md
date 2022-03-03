@@ -53,8 +53,6 @@
 
 19. In Power BI Desktop, in the **SQL statement (optional, requires database)** box, paste the query, and then click **OK**.
 
-20. In the **SQL Server database** dialog box, on the **Database** tab, in the **User name** box, type **Student**, and in the **Password** box, type **Pa55w.rd**, and then click **Connect**.
-
 21. In the data preview window, click **Load**.
 
 22. On the **Home** tab, click **Get Data**.

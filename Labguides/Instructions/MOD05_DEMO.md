@@ -16,7 +16,7 @@
 
 #### Demo 1: Working with Relationships in Power BI
 
-1. Ensure the **MT17B-WS2016-NAT**, **20778C-MIA-DC** and **20778C-MIA-SQL** virtual machines are running, log on to **20778C-MIA-SQL** as **powerbi\\fenago** with the password **Pa55w.rd**.
+1. Ensure that you have copied all folders from `Desktop/power-bi-quickstart` folder into **D:\\** drive before starting the lab.
 
 2. In the **D:\\Demofiles\\Mod05** folder, run **Setup.cmd** as Administrator.
 
