@@ -167,7 +167,7 @@
 
 7. In the formula bar, highlight **Column =**, type the following script, and then press Enter:
     ```
-    FullName = [FirstName] & " " & [LastName]
+    FullName = [MiddleName] & " " & [LastName]
     ```
 
 8. On the **Modeling** tab, in the **Calculations** group, click **New Column**.

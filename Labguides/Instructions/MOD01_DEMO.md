@@ -26,13 +26,13 @@
 
 11. On the **Power BI Desktop** screen, click **Get data**.
 
-12. In the **Get Data** dialog box, click **SQL Server database**, and then click **Connect**.
+12. In the **Get Data** dialog box, click **SQL Server**, and then click **Connect**.
 
-13. In the **SQL Server database** dialog box, in the **Server** box, type **localhost**.
+13. In the **SQL Server** dialog box, in the **Server** box, type **localhost**.
 
 14. In the **Database (optional)** box, type **AdventureWorksDW**, and then click **OK**.
 
-15. In the **SQL Server database** dialog box, leave the default settings unchanged, and then click **Connect**.
+15. In the **SQL Server** dialog box, leave the default settings unchanged, and then click **Connect**.
 
 16. In the **Encryption Support** dialog box, click **OK**.
 
@@ -42,7 +42,7 @@
 
 19. If the **Connection Settings** dialog box appears, leave **Import** selected, and then click **OK**.
 
-20. In the **Untitled - Power Query Editor** window, in the **Queries** pane, click **FactInternetSales**.
+20. In the **Power Query Editor** window, in the **Queries** pane, click **FactInternetSales**.
 
 21. Right-click the **CarrierTrackingNumber** column, and click **Remove**.
 
@@ -88,9 +88,11 @@
 
 42. On the **Modeling** tab, in the **Formatting** group, click **Format: Currency general**, point to **Currency**, and then click **$ English (United States)**.
 
+![](./images/20.png)
+
 43. In the **FIELDS** pane, right-click **DimCustomer**, and then click **New column**.
 
-44. In the formula bar, type **FullName = DimCustomer[FirstName] & " " & DimCustomer[LastName]**, and then press Enter.
+44. In the formula bar, type **FullName = DimCustomer[MiddleName] & " " & DimCustomer[LastName]**, and then press Enter.
 
 45. On the **File** menu, click **Save**. Name the file **Adventure Works Sales**, and save the file to **D:\\Demofiles\\Mod01**.
 
@@ -109,6 +111,8 @@
 3. In the **VISUALIZATIONS** pane, click **Clustered column chart**. 
 
 4. Click **Format**, expand **Title**, and then change the **Title text** to **Sales by Gender and Marital Status**.
+
+![](./images/21.png)
 
 5. Change **Alignment** to **Center**.
 

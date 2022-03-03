@@ -33,15 +33,13 @@
 
 14. In the **Get Data** dialog box, click **SQL Server**, and then click **Connect**.
 
-15. In the **SQL Server database** window, in the **Server** box, type the URL of the Azure server ***localhost**, and in the **Database (optional)** box, type **AdventureWorksLT**.
+15. In the **SQL Server database** window, in the **Server** box, type the URL of the server **localhost**, and in the **Database (optional)** box, type **AdventureWorksLT**.
 
 16. Expand **Advanced options**.
 
 17. In SQL Server Management Studio, copy the **1 - Power BI.sql** query to the clipboard.
 
 18. In the Power BI Desktop, in the **SQL statement (optional, requires database)** box, paste the query, and then click **OK**.
-
-19. In the **SQL Server database** window, click **Database**.
 
 22. In the data preview window, click **Load**.
 
@@ -59,6 +57,8 @@
 
 29. Toggle **Data labels** to be **On**.
 
-30. Expand the **Data colors** list, and choose another color to change the bars on the chart.
+30. Expand the **Colors** list, and choose another color to change the bars on the chart.
+
+![](./images/22.png)
 
 31. On the **File** menu, click **Save As**. Name the report **Adventure Works Sales 2**, and save to the **D:\\Demofiles\\Mod02\\Demo** folder.

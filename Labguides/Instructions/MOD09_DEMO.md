@@ -40,36 +40,4 @@
 
 18. On the **File** menu click **Save**.
 
-19. On the **Home** tab, click **Publish**.
-
-20. In the **Publish to Power BI** dialog box, click **My workspace**, and then click **Select**.
-
-21. In the **Publishing to Power BI** dialog box, click **Open 'AdventureWorks Sales.pbix' in Power BI**.
-
-22. If you have a phone running the Power BI mobile app available, sign in to your Power BI account, and then show students the report on the phone. Show the phone optimized view in portrait mode and the default report view in landscape mode.
-
-23. On **20778C-MIA-SQL**, in Internet Explorer, click **SIGN IN**, enter your email address and password, click **Sign in**, and wait for the report to open.
-
-24. Click the pie chart visual, and then click **Pin visual**.
-
-25. In the **Pin to dashboard** dialog box, click **New dashboard**, and then in the **Dashboard name** box, type **Sales**, and then click **Pin**.
-
-26. Click the donut chart visual, and then click **Pin visual**.
-
-27. In the **Pin to dashboard** dialog box, click **Existing dashboard**, in the **Select existing dashboard** box, click **Sales**, and then click **Pin**.
-
-28. In the navigation pane, expand **My Workspace**, and then under **DASHBOARDS**, click **Sales**.
-
-29. Click **Switch to phone view to optimize the layout for phones**, and then click **Phone version**.
-
-30. In the **Phone Version** message box, click **Continue**.
-
-31. Click and drag the donut chart above the pie chart.
-
-32. If you have a phone running the Power BI mobile app available, sign in to your Power BI account, and then show students the dashboard on the phone. Show the phone optimized view in portrait mode and the default dashboard view in landscape mode.
-
-33. On **20778C-MIA-SQL**, close Internet Explorer.
-
-34. In the **Publishing to Power BI** dialog box, click **Got it**.
-
-35. Close Power BI Desktop.
+19. Close Power BI Desktop.

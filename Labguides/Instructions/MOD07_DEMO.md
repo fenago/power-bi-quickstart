@@ -23,7 +23,7 @@
 
 7. In the **Get Data** dialog box, click **SQL Server**, and then click **Connect**.
 
-8. In the **SQL Server database** window, in the **Server** box, type the URL of the Azure server **localhost**.
+8. In the **SQL Server database** window, in the **Server** box, type the URL of the server **localhost**.
 
 9. In the **Database (optional)** box, type **AdventureWorksLT**.
 
@@ -84,7 +84,7 @@ DirectQuery storage is ideal for some of your data, but some data rarely changes
 
 1. In the **VISUALIZATIONS** pane, click **Format**, expand **Title**, and then rename the chart **Order Quantity by Product Category**.
 
-1. Expand **Data colors**, and then select a different color from the **Default color** selector.
+1. Expand **Colors**, and then select a different color from the **Default color** selector.
 
 1. Click on the canvas.
 

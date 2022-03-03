@@ -81,7 +81,7 @@
 
 21. In the **Get Data** dialog box, click **SQL Server**, and then click **Connect**.
 
-22. In the **SQL Server database** dialog box, in the **Server** box, type the URL of the Azure server **localhost**.
+22. In the **SQL Server database** dialog box, in the **Server** box, type the URL of the server **localhost**.
 
 23. In the **Database (optional)** box, type **AdventureWorksLT**.
 

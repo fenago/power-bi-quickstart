@@ -78,6 +78,8 @@
 
 6. Next to **Alignment**, click the **Center** icon.
 
+![](./images/align.png)
+
 7. In the **FIELDS** pane, under **FactInternetSales**, drag the **SalesAmount** field onto the report canvas to create a column chart.
 
 8. Under **DimDate**, drag the **CalendarQuarter** field onto the chart. Notice that there is only one column.
@@ -90,7 +92,7 @@
 
 12. Next to **Alignment**, click the **Center** icon.
 
-13. Expand **Data colors**, change **Show all** to **On**, and for **1**, select **red**, for **2**, select **blue**, and for **3**, select **yellow**.
+13. Expand **Colors**, change **Show all** to **On**, and for **1**, select **red**, for **2**, select **blue**, and for **3**, select **yellow**.
 
 14. Move the chart to the right of the **Sales by Day of Week** chart, and expand it so both charts are the same height.
 

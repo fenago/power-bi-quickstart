@@ -6,11 +6,6 @@
       - [Sign up for Power BI](#sign-up-for-power-bi)
       - [Connect to a Database in Azure SQL Database and Import Data](#connect-to-a-database-in-azure-sql-database-and-import-data)
       - [Add Visualizations to a Report](#add-visualizations-to-a-report)
-  - [Lesson 2: Managing a Power BI Solution](#lesson-2-managing-a-power-bi-solution)
-    - [Demo 1: Creating Featured Questions](#demo-1-creating-featured-questions)
-      - [Add Featured Questions to a Dashboard](#add-featured-questions-to-a-dashboard)
-      - [Use Featured Questions](#use-featured-questions)
-
 
 ## Lesson 1: Creating Power BI Reports
 
@@ -43,7 +38,7 @@
 
 14. In the **Get Data** dialog box, click **SQL Server**, and then click **Connect**.
 
-15. In the **SQL Server database** dialog box, in the **Server** box, type the URL of the Azure server **localhost** .
+15. In the **SQL Server database** dialog box, in the **Server** box, type the URL of the server **localhost** .
 
 16. In the **Database (optional)** box, type **AdventureWorksLT**.
 
@@ -59,7 +54,7 @@
 
 23. In the **Get Data** dialog box, click **SQL Server**, and then click **Connect**.
 
-24. In the **SQL Server database** dialog box, in the **Server** box, type the URL of the Azure server **localhost** .
+24. In the **SQL Server database** dialog box, in the **Server** box, type the URL of the server **localhost** .
 
 25. In the **Database (optional)** box, type **AdventureWorksLT**.
 
@@ -142,50 +137,3 @@
 
 32. Leave Power BI open for the next demonstration.
 
----
-
-## Lesson 2: Managing a Power BI Solution
-
-### Demo 1: Creating Featured Questions
-
-#### Add Featured Questions to a Dashboard
-
-1. In Power BI Desktop, click **Publish** to publish the report you created in the previous demo.
-
-2. In the **Publish to Power BI** dialog box, click **My workspace**, and then click **Select**.
-
-3. In the **Publishing to Power BI** dialog box, when the window displays **Success**, click **Open 'Customer Sales.pbix' in Power BI** to view the report online.
-
-4. In Internet Explorer, click **SIGN IN**, enter your email address and password, click **Sign in**, and wait for the report to open.
-
-5. At the bottom of the page, click **Page 1**, click the **Orders by Sub Category** visual, and then click **Pin visual**.
-
-6. In the **Pin to dashboard** dialog box, click **New dashboard**, and then in the **Dashboard name** box, type **Customer Sales**, and then click **Pin**.
-
-7. Expand **My Workspace**, under **DASHBOARDS**, position the cursor over **Customer Sales**, click the ellipsis (**...**), and then click **SETTINGS**.
-
-8. On the **Dashboards** tab, under **Settings for Customer Sales**, under **Q&A**, ensure the **Show the Q&A search box on this dashboard** check box is selected.
-
-9. On the **Datasets** tab, click **Customer Sales**.
-
-10. Under **Settings for Customer Sales**, click **Featured Q&A questions**, and then click **Add a question**.
-
-11. In the text box, type **Show sales by customer**.
-
-12. Click **Add a question**, and in the text box, type **Show all products with unit price greater than $250**, and then click **Apply**.
-
-#### Use Featured Questions
-
-1. Under **My Workspace**, under **DASHBOARDS**, click **Customer Sales**.
-
-2. Click **Ask a question about your data**, and the Featured Questions you have just added now appear at the top of the list of suggestions.
-
-3. In the **Ask a question about your data** box, type **Show sales by customer** to see the results.
-
-4. Remove the question text, and then click the **Show all products with unit price greater than $250** question to see the results.
-
-5. Close Internet Explorer.
-
-6. In the **Publishing to Power BI** dialog box, click **Got it**.
-
-7. Close Power BI Desktop, and then close Microsoft SQL Server Management Studio, without saving any changes.

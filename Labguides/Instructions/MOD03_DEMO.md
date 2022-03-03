@@ -39,11 +39,11 @@
 
 11. In the **Get Data** dialog box, click **Excel**, and then click **Connect**.
 
-12. In the **Open** dialog box, navigate to **D:\\Demofiles\\Mod03\\Demo\\Files for Import**, click **Sales.xlsx**, and then click **Open**.
+12. In the **Open** dialog box, navigate to **D:\\Demofiles\\Mod03\\Demo**, click **Adventure Works Sales.xlsx**, and then click **Open**.
 
-13. In the **Navigator** window, click **Sales** to show a preview of the data. Use the horizontal scrollbar to display the columns, select the **Sales** check box, and then click **Load**.
+13. In the **Navigator** window, click **SalesPerson** to show a preview of the data. Use the horizontal scrollbar to display the columns, select the **SalesPerson** check box, and then click **Load**.
 
-14. When the load completes, in the **FIELDS** pane, point out the **Sales** table. Mention that Power BI has detected columns that can be used in aggregations, as indicated by the **Sum** symbol next to the column names.
+![](./images/24.png)
 
 #### Import Data from a CSV File
 
@@ -51,7 +51,7 @@
 
 2. In the **Get Data** dialog box, click **Text/CSV**, and then click **Connect**.
 
-3. In the **Open** dialog box, navigate to **D:\\Demofiles\\Mod03\\Demo\\Files for Import**, click **SalesPerson.csv**, and then click **Open**.
+3. In the **Open** dialog box, navigate to **D:\\Demofiles\\Mod03\\Demo**, click **Adventure Works Sales.csv**, and then click **Open**.
 
 4. In the preview window, drag the lower-right corner to enlarge the window and display more of the data, and then click **Load**.
 

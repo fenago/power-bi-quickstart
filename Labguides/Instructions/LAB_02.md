@@ -93,7 +93,7 @@
 
 5. Ensure the chart has focus, and then in the **VISUALIZATIONS** pane, click **Format**.
 
-6. Expand **Data colors**, then toggle **Show all** to **On**.
+6. Expand **Colors**, then toggle **Show all** to **On**.
 
 7. Change the color for **Linda**, **Jae**, and **Michael** to red.
 

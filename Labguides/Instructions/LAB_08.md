@@ -8,8 +8,6 @@
 
 **Note:** Lab Solution is present in `D:\Labfiles\Lab08\Solution` folder:
 
-## Lab: Using Marketplace Visualizations
-
 ### Exercise 1: Use a Custom Visualization
 
 #### Task 1: Prepare the Lab Environment
@@ -57,6 +55,5 @@
 10. You should get following visual:
 
 ![](./images/19.png)
-
 
 14. Close Power BI Desktop, without saving any changes.
