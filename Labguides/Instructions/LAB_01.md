@@ -4,7 +4,6 @@
   - [Lab: Exploring an Enterprise BI Solution](#lab-exploring-an-enterprise-bi-solution)
     - [Exercise 1: Lab Environment Setup](#exercise-1-viewing-reports)
       - [Task 1: Prepare the Lab Environment](#task-1-prepare-the-lab-environment)
-      - [Task 2: View Reports in SharePoint Server](#task-2-view-reports-in-sharepoint-server)
     - [Exercise 2: Creating a Power BI Report](#exercise-2-creating-a-power-bi-report)
       - [Task 1: Import Data into Power BI Desktop](#task-1-import-data-into-power-bi-desktop)
       - [Task 2: Add Visualizations to the Report](#task-2-add-visualizations-to-the-report)
