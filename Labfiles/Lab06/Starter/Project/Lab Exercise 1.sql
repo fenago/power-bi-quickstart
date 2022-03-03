@@ -8,7 +8,7 @@
 ---------------------------------------------------------------------
 -- Task 1
 -- 
--- Connect to AdventureWorksLT Azure SQL Database from Power BI.
+-- Connect to AdventureWorksLT SQL Database from Power BI.
 --
 -- Copy and paste the following query into the Query textbox.
 ---------------------------------------------------------------------
@@ -25,7 +25,7 @@ WHERE	b.AddressType = 'Main Office'
 ---------------------------------------------------------------------
 -- Task 2
 -- 
--- Connect to AdventureWorksLT Azure SQL Database from Power BI.
+-- Connect to AdventureWorksLT SQL Database from Power BI.
 --
 -- Copy and paste the following query into the Query textbox.
 ---------------------------------------------------------------------

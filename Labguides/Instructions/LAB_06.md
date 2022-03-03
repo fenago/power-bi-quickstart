@@ -4,7 +4,7 @@
   - [Lab: Creating a Power BI Report](#lab-creating-a-power-bi-report)
     - [Exercise 1: Connecting to Power BI Data](#exercise-1-connecting-to-power-bi-data)
       - [Task 1: Prepare the Environment](#task-1-prepare-the-environment)
-      - [Task 2: Connect to Existing Data in Azure](#task-2-connect-to-existing-data-in-azure)
+      - [Task 2: Connect to Existing Data](#task-2-connect-to-existing-data)
       - [Task 3: Shape Data](#task-3-shape-data)
       - [Task 4: Combine Data](#task-4-combine-data)
     - [Exercise 2: Building Power BI Reports](#exercise-2-building-power-bi-reports)

@@ -4,7 +4,7 @@
   - [Lesson 1: Creating Power BI Reports](#lesson-1-creating-power-bi-reports)
     - [Demo 1: Adding Visualizations to a Report](#demo-1-adding-visualizations-to-a-report)
       - [Sign up for Power BI](#sign-up-for-power-bi)
-      - [Connect to a Database in Azure SQL Database and Import Data](#connect-to-a-database-in-azure-sql-database-and-import-data)
+      - [Connect to a Database in SQL Database and Import Data](#connect-to-a-database-in-sql-database-and-import-data)
       - [Add Visualizations to a Report](#add-visualizations-to-a-report)
 
 ## Lesson 1: Creating Power BI Reports
@@ -12,7 +12,7 @@
 ### Demo 1: Adding Visualizations to a Report
 
 
-#### Connect to a Database in Azure SQL Database and Import Data
+#### Connect to a Database in SQL Database and Import Data
 
 1. Ensure that you have copied all folders from `Desktop/power-bi-quickstart` folder into **D:\\** drive before starting the lab.
 

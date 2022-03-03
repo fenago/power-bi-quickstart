@@ -138,6 +138,8 @@
 
 9. Expand **Gauge axis**, in the **Max** box, type **1000000**, and in the **Target** box, type **1000000**.
 
+![](./images/28.png)
+
 10. Leave Power BI open for the next demonstration.
 
 ---
@@ -156,6 +158,8 @@
     ```
     FullName = [FirstName] & " " & [LastName]
     ```
+
+![](./images/29.png)
 
 5. If the new column is not visible, scroll to the right of the table. Note the new **FullName** column in the table.
 
@@ -186,7 +190,11 @@
     DimCountry = DATATABLE ("Country", STRING, "Code", STRING,{{"United States", "US"},{"United Kingdom", "UK"},{"France", "FR"},{"Germany", "DE"},{"Spain", "ES"}})
     ```
 
+![](./images/30.png)
+
 15. In the **FIELDS** pane, note the new table.
+
+![](./images/31.png)
 
 16. On the **Modeling** tab, in the **Calculations** group, click **New Measure**.
 

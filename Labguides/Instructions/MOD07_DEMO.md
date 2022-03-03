@@ -3,7 +3,7 @@
 - [Module 7: Direct Connectivity](#module-7-direct-connectivity)
   - [Lesson 1: Cloud data](#lesson-1-cloud-data)
     - [Demo 1: Using  SQL Database as a Power BI data source](#demo-1-using-sql-database-as-a-power-bi-data-source)
-      - [Import data from tables in a database in Azure SQL Database](#import-data-from-tables-in-a-database-in-azure-sql-database)
+      - [Import data from tables in a database in SQL Database](#import-data-from-tables-in-a-database-in-sql-database)
       - [View relationships between the tables](#view-relationships-between-the-tables)
 
 
@@ -11,7 +11,7 @@
 
 ### Demo 1: Using SQL Database as a Power BI data source
 
-#### Connect to data from tables in a database in Azure SQL Database
+#### Connect to data from tables in a database in SQL Database
 
 1. Ensure that you have copied all folders from `Desktop/power-bi-quickstart` folder into **D:\\** drive before starting the lab.
 

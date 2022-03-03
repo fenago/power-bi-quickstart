@@ -1,7 +1,7 @@
 -- Demonstration 1 - Power BI
 
 
--- Copy and paste the following query into the Power BI Desktop connection to the AdventureWorks Azure SQL Database.
+-- Copy and paste the following query into the Power BI Desktop connection to the AdventureWorks SQL Database.
 
 SELECT TOP 10 s.ProductID, p.Name AS ProductName, SUM(LineTotal) AS TotalSales
 FROM SalesLT.SalesOrderDetail AS s
