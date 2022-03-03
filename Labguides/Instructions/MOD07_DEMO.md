@@ -2,14 +2,14 @@
 
 - [Module 7: Direct Connectivity](#module-7-direct-connectivity)
   - [Lesson 1: Cloud data](#lesson-1-cloud-data)
-    - [Demo 1: Using Azure SQL Database as a Power BI data source](#demo-1-using-azure-sql-database-as-a-power-bi-data-source)
+    - [Demo 1: Using  SQL Database as a Power BI data source](#demo-1-using-sql-database-as-a-power-bi-data-source)
       - [Import data from tables in a database in Azure SQL Database](#import-data-from-tables-in-a-database-in-azure-sql-database)
       - [View relationships between the tables](#view-relationships-between-the-tables)
 
 
 ## Lesson 1: Cloud data
 
-### Demo 1: Using Azure SQL Database as a Power BI data source
+### Demo 1: Using SQL Database as a Power BI data source
 
 #### Connect to data from tables in a database in Azure SQL Database
 
@@ -32,6 +32,7 @@
 13. In the **Navigator** dialog box, select the **SalesLT.Customer**, **SalesLT.Product**, **SalesLT.ProductCategory**,**SalesLT.SalesOrderDetail**, and **SalesLT.SalesOrderHeader** check boxes, and then click **Load**.
 
 14. In the **FIELDS** pane, notice that the five tables have been added. When the report is published to the Power BI service, the tables are combined into a single dataset.
+
 15. The connection is now a DirectQuery connection. The data has not been imported and you are always looking at current data.
 
 #### Use a Composite model

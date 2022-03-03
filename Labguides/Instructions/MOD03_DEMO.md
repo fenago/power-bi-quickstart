@@ -5,11 +5,7 @@
     - [Demo 1: Importing Files from a Local Folder](#demo-1-importing-files-from-a-local-folder)
       - [Import Data from an Excel File](#import-data-from-an-excel-file)
       - [Import Data from a CSV File](#import-data-from-a-csv-file)
-  - [Lesson 2: The Power BI Data Model](#lesson-2-the-power-bi-data-model)
-    - [Demo 1: Creating a Hierarchy](#demo-1-creating-a-hierarchy)
-      - [Creating a Hierarchy](#creating-a-hierarchy)
-      - [Using a Hierarchy](#using-a-hierarchy)
-  - [Lesson 3: Using Databases as a Data Source for Power BI](#lesson-3-using-databases-as-a-data-source-for-power-bi)
+  - [Lesson 2: Using Databases as a Data Source for Power BI](#lesson-2-using-databases-as-a-data-source-for-power-bi)
     - [Demo 1: Importing Data from SQL Server](#demo-1-importing-data-from-sql-server)
       - [Import Data from SQL Server](#import-data-from-sql-server)
       - [Import Data Using a Query](#import-data-using-a-query)
@@ -55,60 +51,19 @@
 
 4. In the preview window, drag the lower-right corner to enlarge the window and display more of the data, and then click **Load**.
 
-5. In the **FIELDS** pane, expand the **SalesPerson** table to show the columns. Mention that the two tables from different sources are now available to use together in a report. If the report is published, the tables will be part of the same dataset.
+![](./images/24.png)
+
+
+5. In the **FIELDS** pane, expand the **Adventure Works Sales** table to show the columns. Mention that the two tables from different sources are now available to use together in a report.
 
 6. On the **File** menu, click **Save As**, name the report **Adventure Works Sales 3**, and then save to the **D:\\Demofiles\\Mod03\\Demo** folder.
 
 7. Leave Power BI open for the next demonstration.
 
----
-
-## Lesson 2: The Power BI Data Model
-
-### Demo 1: Creating a Hierarchy
-
-#### Creating a Hierarchy
-
-1. In the **FIELDS** pane, under **Sales**, right-click **Country**, and then click **New hierarchy**. The new hierarchy column is added.
-
-2. Right-click **Territory**, point to **Add to hierarchy**, and then click **Country Hierarchy**.
-
-3. Right-click **State Province**, point to **Add to hierarchy**, and then click **Country Hierarchy**.
-
-4. Right-click **City**, point to **Add to hierarchy**, and then click **Country Hierarchy**.
-
-5. Right-click **Country Hierarchy**, click **Rename**, type **Region Hierarchy**, and then press Enter.
-
-6. In the **FIELDS** pane, under **Sales**, drag the **Total Due** column to the report canvas to create a new chart.
-
-7. Drag the **Region Hierarchy** to the **Axis** in the **VISUALIZATIONS** pane.
-
-8. Resize and move the chart on the canvas so it fills the report canvas.
-
-9. In the **FIELDS** pane, under **Sales**, click the **Total Due** column to give it focus.
-
-10. On the **Modeling** tab, click **Format: General**, point to **Currency**, and then click **$ English (United States)**.
-#### Using a Hierarchy
-
-1. In the top right-hand corner of the chart, click **Click to turn on Drill Down**. Notice that the arrow icon is now black.
-
-2. Click the **United States** column in the chart to show the data by Territory. Notice that the chart title has changed.
-
-3. Click the **Northwest** column, and again, notice that the chart title changes.
-
-4. Click the **Oregon** column. Notice that the title of the chart has changed, and the down arrow in the top left-hand corner is disabled.
-
-5. Click the **Drill Up** icon to return to the State Province level.
-
-6. Click the **Drill Up** icon to return to the Territory level.
-
-7. Click the **Expand all down one level in the hierarchy** icon to see the Total Due by Country, Territory, and State Province.
-
-8. Leave Power BI open for the next demonstration.
 
 ---
 
-## Lesson 3: Using Databases as a Data Source for Power BI
+## Lesson 2: Using Databases as a Data Source for Power BI
 
 ### Demo 1: Importing Data from SQL Server
 
@@ -117,8 +72,6 @@
 1. On the **Home** tab, click the **Get Data** arrow, and then click **SQL Server**.
 
 2. In the **SQL Server database** dialog box, in the **Server** box, type **localhost**, in the **Database (optional)** box, type **AdventureWorks**, and then click **OK**.
-
-3. If the **SQL Server database** dialog box appears, ensure the **Windows** tab is selected, click **Use my current credentials**, and then click **Connect**.
 
 4. If the **Encryption Support** dialog box appears, click **OK**.
 
