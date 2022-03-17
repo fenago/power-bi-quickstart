@@ -21,11 +21,7 @@
 
 2. In File Explorer, in the **D:\\Labfiles\\Lab05\\Starter** folder, right-click **Setup.cmd**, and then click **Run as administrator**.
 
-3. In the **User Account Control** dialog box, click **Yes**.
-
-4. If prompted to continue this operation, type **Y**, and then press Enter.
-
-5. When the script completes, press any key to close the window.
+3. When the script completes, press any key to close the window.
 
 #### Task 2: Automatic Relationships
 

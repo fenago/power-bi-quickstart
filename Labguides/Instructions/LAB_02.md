@@ -19,11 +19,7 @@
 
 2. In the **D:\\Labfiles\\Lab02\\Starter** folder, right-click **Setup.cmd**, and then click **Run as administrator**.
 
-3. In the **User Account Control** dialog box, click **Yes**.
-
-4. If prompted to continue this operation, type **Y**, and then press Enter.
-
-5. When the script completes, press any key to close the window.
+3. When the script completes, press any key to close the window.
 
 
 #### Task 2: Connect to SQL Server from the Power BI Desktop
@@ -83,7 +79,7 @@
 
 #### Task 3: Add Charts to the Report
 
-1. In the **VISUALIZATIONS** pane, click **Stacked column chart** to add a control to the report.
+1. In the **VISUALIZATIONS** pane, click **Stacked column chart** to add it to the report.
 
 2. In the **FIELDS** pane, under **Sales** **vSalesPerson**, drag the **FirstName** field to the **Axis** box in the **VISUALIZATIONS** pane.
 
@@ -97,13 +93,13 @@
 
 7. Change the color for **Linda**, **Jae**, and **Michael** to red.
 
-8. Click the report canvas then in the **VISUALIZATIONS** pane, click **Pie chart** to add a control to the report. Drag the pie chart to the right of the bar chart, or below if there is not enough space.
+8. Click the report canvas then in the **VISUALIZATIONS** pane, click **Pie chart**. Drag the pie chart to the right of the bar chart, or below if there is not enough space.
 
 9. In the **FIELDS** pane, under **Sales** **vStoreWithDemographics**, drag the **Specialty** field to the **Legend** box in the **VISUALIZATIONS** pane.
 
 10. Drag the **NumberEmployees** field to the **Values** box. The chart will populate with the data and should display three pie sections.
 
-11. Click the report canvas, then in the **VISUALIZATIONS** pane, click **Stacked column chart** to add a control to the report. The chart should be located under the previous charts.
+11. Click the report canvas, then in the **VISUALIZATIONS** pane, click **Stacked column chart** to add it to the report. The chart should be located under the previous charts.
 
 12. In the **FIELDS** pane, expand **Top 10 Selling Products**, drag the **Product** field to the **Axis** box in the **VISUALIZATIONS** pane.
 

@@ -16,11 +16,7 @@
 
 2. In the **D:\\Labfiles\\Lab08\\Starter** folder, right-click **Setup.cmd**, and then click **Run as administrator**.
 
-3. In the **User Account Control** dialog box, click **Yes**.
-
-4. If prompted to continue this operation, type **Y**, and then press Enter.
-
-5. When the script completes, press any key to close the window.
+3. When the script completes, press any key to close the window.
 
 #### Task 2: Using Custom Visuals
 
@@ -32,7 +28,7 @@
 
 4. In the **Open** dialog box, browse to **D:\\Labfiles\\Lab08\\Starter\\Project**, click **Adventure Works Sales.pbix**, and then click **Open**.
 
-5. Click **Sunburst**.
+5. In the PowerBI application in the Visualizations panel, locate the **Sunburst** visual and click it:
 
 ![](./images/14.png)
 

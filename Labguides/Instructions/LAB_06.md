@@ -26,11 +26,7 @@
 
 2. In the **D:\\Labfiles\\Lab06\\Starter** folder, right-click **Setup.cmd**, and then click **Run as administrator**.
 
-3. In the **User Account Control** dialog box, click **Yes**.
-
-4. If prompted to continue this operation, type **Y**, and then press Enter.
-
-5. When the script completes, press any key to close the window.
+3. When the script completes, press any key to close the window.
 
 
 #### Task 2: Connect to Existing Data
@@ -59,7 +55,7 @@
 
 10. In the **Get Data** dialog box, click **SQL Server**, and then click **Connect**.
 
-11. In the **SQL Server database** dialog box, in the **Server** box, type the URL of the server **localhost**.
+11. In the **SQL Server database** dialog box, type **localhost** in the **Server** box.
 
 12. In the **Database (optional)** box, type **AdventureWorksLT**.
 
@@ -79,7 +75,7 @@
 
 18. On the **Home** tab, click the **Get Data** arrow, and then click **More**.
 
-19. In the **Get Data** dialog box, click **SQL Server**, and then click **Connect**.
+19. In the **Get Data** dialog box, click **SQL Server Database**, and then click **Connect**.
 
 20. In the **SQL Server database** dialog box, in the **Server** box, type the URL of the server **localhost**.
 

@@ -11,11 +11,11 @@
 
 1. Ensure that you have copied all folders from `Desktop/power-bi-quickstart` folder into **D:\\** drive before starting the lab.
 
-2. In the **D:\\Demofiles\\Mod02** folder, run **Setup.cmd** as Administrator.
+2. Open the **D:\\Demofiles\\Mod02** folder.
 
-3. In the **User Account Control** dialog box, click **Yes**.
+3. Run **Setup.cmd** as **Administrator**.
 
-4. If prompted to continue this operation, type **Y**, and then press Enter.
+4. Optionally if prompted to continue this operation, type **Y**, and then press Enter.
 
 5. When the script completes, press any key to close the window.
 

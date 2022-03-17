@@ -93,7 +93,7 @@
 
 2. On the **Home** tab, in the **Combine** group, click **Append Queries**.
 
-3. In the **Append** dialog box, in the **Table to append** list, click **North America**, and then click **OK**. The rows are combined.
+3. In the **Append** dialog box, in the **Table to append** list, click **Sales NorthAmerica**, and then click **OK**. The rows are combined.
 
 4. On the **Country** column header, click the **Arrow**, and then click **Load** **more**. You should now see that **United States** and **Canada** are included, and then click **Cancel**.
 
@@ -103,7 +103,7 @@
 
 7. In the **Navigator** dialog box, select the **Country Codes** check box, and then click **OK**.
 
-8. On the **Transform** tab, click **Use First Row as Headers**.
+8. Click **Use First Row as Headers** as shown below:
 
 ![](./images/5.png)
 
