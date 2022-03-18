@@ -47,6 +47,8 @@
 
 6. In Solution Explorer, expand **Queries**, and then double-click **Lab Exercise 1.sql**.
 
+![](./images/s58.png)
+
 7. On the Taskbar, click **Power BI Desktop**.
 
 8. To close the getting started window, at the top-right of the window, click **X**.
@@ -73,9 +75,11 @@
 
 ![](./images/12.png)
 
-18. On the **Home** tab, click the **Get Data** arrow, and then click **More**.
+18. On the **Home** tab, click the **Get Data** arrow.
 
-19. In the **Get Data** dialog box, click **SQL Server Database**, and then click **Connect**.
+19. Click **SQL Server**, and then click **Connect**.
+
+![](./images/s59.png)
 
 20. In the **SQL Server database** dialog box, in the **Server** box, type the URL of the server **localhost**.
 
@@ -85,7 +89,11 @@
 
 23. In SQL Server Management Studio, in the **Lab Exercise 1.sql** query, copy the query under **Task 2** to the clipboard.
 
+![](./images/s60.png)
+
 24. In Power BI Desktop, in the **SQL statement (optional, requires database)** box, paste the query, and then click **OK**.
+
+![](./images/s61.png)
 
 25. In the data preview window, click **Load**.
 
@@ -97,9 +105,13 @@
 
 1. In the **FIELDS** pane, right-click **Query1**, click **Rename**, type **Customers**, and then press Enter.
 
+![](./images/s62.png)
+
 2. Right-click **Query2**, click **Rename**, type **Sales**, and then press Enter.
 
 3. Expand the two tables to display all of the fields.
+
+![](./images/s63.png)
 
 4. In the left navigation bar, click **Data**.
 
@@ -111,17 +123,25 @@
 
 8. Right-click the **SalesPerson** column, and click **Delete**.
 
+![](./images/s64.png)
+
 9. In the **Delete column** dialog box, click **Delete**.
 
 10. Right-click the **CustomerID** column, and then click **Hide in report view**.
+
+![](./images/s65.png)
 
 11. Click the **AddressLine1** column header.
 
 12. On the **Modeling** tab, in the **Properties** group, click **Data Category: Uncategorized**, and then click **Address**.
 
+![](./images/s66.png)
+
 13. Click the **City** column header.
 
 14. On the **Modeling** tab, in the **Properties** group, click **Data Category: Uncategorized**, and then click **City**.
+
+![](./images/s67.png)
 
 15. Click the **StateProvince** column header.
 
@@ -129,7 +149,7 @@
 
 17. Click the **CountryRegion** column header.
 
-18. On the **Modeling** tab, in the **Properties** group, click **Data Category: Uncategorized**, and then click **Country/Region**.
+18. On the **Modeling** tab, in the **Properties** group, click **Data Category: Uncategorized**, and then click **Country**.
 
 19. Click the **PostalCode** column header.
 
@@ -139,6 +159,10 @@
     ```
     FullAddress = Customers[AddressLine1] & ", " & Customers[City] & ", " & Customers[StateProvince] & ", " & Customers[CountryRegion] & ", " & Customers[PostalCode]
     ```
+
+![](./images/s68.png)
+
+![](./images/s69.png)
 
 22. In the **FIELDS** pane, click **Sales**.
 
@@ -165,30 +189,42 @@
 
 32. On the **Modeling** tab, in the **Formatting** group, click **Format: General**, point to **Currency**, and then click **$ English (United States)**.
 
+![](./images/s70.png)
+
 33. On the **Modeling** tab, in the **Calculations** group, click **New Measure**, and then in the formula bar, type the following expression, and then press Enter:
     ```
     TargetSales = SUM('Sales'[LineTotal]) * 1.2
     ```
 
+![](./images/s71.png)
+
 34. On the **File** menu, click **Save**.
 
 #### Task 4: Combine Data
 
-1. In Power BI Desktop, on the **Home** tab, click the **Get Data** arrow, and then click **Excel**.
+1. In Power BI Desktop, on the **Home** tab, click the **Get Data** arrow, and then click **Excel workbook**.
 
 2. In the **Open** dialog box, browse to the **D:\\Labfiles\\Lab06\\Starter\\Project** folder, click **States.xlsx**, and then click **Open**.
 
 3. In the **Navigator** dialog box, select the **States** check box, and then click **Load**.
 
+![](./images/s72.png)
+
 4. In the **FIELDS** pane, right-click **States**, click **Rename**, type **Sales by State**, and then press Enter.
+
+![](./images/s73.png)
 
 5. On the **Home** tab, the **Get Data** arrow, and then click **Web**.
 
 6. In the **From Web** dialog box, in the **URL** box, type **http://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations**, and then click **OK**.
 
+![](./images/s74.png)
+
 7. In the **Navigator** dialog box, select the **Codes and abbreviations for U.S. states, federal district, territories, and other regions** check box, and then click **Load**.
 
 8. In the **FIELDS** pane, click **Codes and abbreviations for U.S. states, federal district, territories, and other regions** to display the data. The table has 26 rows at the bottom and 3 rows at the top that are not needed.
+
+![](./images/s75.png)
 
 9. On the **Home** tab, in the **External data** group, click the **Edit Queries** arrow, and then click **Edit Queries**.
 
