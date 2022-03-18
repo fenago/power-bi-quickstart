@@ -17,11 +17,18 @@
 
 2. In File Explorer, in the **D:\\Labfiles\\Lab07\\Starter** folder, right-click **Setup.cmd**, and then click **Run as administrator**.
 
+![](./images/s1.png)
+
 3. When the script completes, press any key to close the window.
+
+![](./images/s2.png)
 
 #### Task 2: Direct connectivity from the Power BI Desktop
 
 1. On the Taskbar, click **Power BI Desktop**.
+
+![](./images/s3.png)
+
 
 2. To close the getting started window, at the top-right of the window, click **X**.
 
@@ -35,8 +42,11 @@
 
 7. Under **Data Connectivity mode**, click **DirectQuery**, and then click **OK**.
 
+![](./images/s28.png)
 
 8. In the **Navigator** dialog box, select the **SalesLT.Product** and **SalesLT.SalesOrderDetail** check boxes, and then click **Load**.
+
+![](./images/s29.png)
 
 9. In the **Visualizations** pane, click the **Card** icon.
 
@@ -48,9 +58,15 @@
 
 12. In the **Visualizations** pane, click the **Slicer** icon.
 
+![](./images/s30.png)
+
 13. In the **Fields** pane, expand the **SalesLT Product** table, and drag the **SellStartDate** field to the chart.
 
+![](./images/s31.png)
+
 14. Drag the slider bar to reduce the date range, and verify that the **OrderQty** value changes.
+
+![](./images/s32.png)
 
 15. On the **File** menu, click **Save**.
 

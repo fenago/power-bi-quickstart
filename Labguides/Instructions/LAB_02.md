@@ -30,9 +30,13 @@
 
 3. On the **Power BI Desktop** window, in the left-hand pane, click **Get data**.
 
-4. In the **Get Data** dialog box, click **SQL Server database**, and then click **Connect**.
+4. In the **Get Data** dialog box, click **SQL Server**, and then click **Connect**.
+
+![](./images/s4.png)
 
 5. In the **SQL Server database** dialog box, in the **Server** box, type **localhost**, in the **Database (optional)** box, type **AdventureWorks**, and then click **OK**.
+
+![](./images/s16.png)
 
 6. In the **SQL Server database** dialog box, accept the default values, and then click **Connect**.
 
@@ -40,7 +44,11 @@
 
 8. In the **Navigator** dialog box, select the **Sales.vSalesPerson** check box, and then click **Load**.
 
+![](./images/s17.png)
+
 9. In the **FIELDS** pane, expand **Sales vSalesPerson** to view all the columns.
+
+![](./images/s18.png)
 
 10. On the **Home** tab, click **Recent Sources**, and then click **localhost: AdventureWorks**.
 
@@ -51,6 +59,8 @@
 12. If the **Connection settings dialog box** appears, ensure **Import** is selected, and then click **OK**.
 
 13. In the **FIELDS** pane, expand **Sales.vStoreWithDemographics** to view all the columns.
+
+![](./images/s19.png)
 
 14. On the **Home** tab, click the **Get Data** arrow, and then click **SQL Server**.
 
@@ -66,9 +76,13 @@
     ORDER BY LineTotal DESC
     ```
 
+![](./images/s20.png)
+
 17. If the **Connection settings dialog box** appears, ensure **Import** is selected, and then click **OK**.
 
 18. In the **localhost: AdventureWorks** dialog box, click **Load**.
+
+![](./images/s21.png)
 
 19. In the **FIELDS** pane, expand **Query1** to view all columns.
 
@@ -80,6 +94,8 @@
 #### Task 3: Add Charts to the Report
 
 1. In the **VISUALIZATIONS** pane, click **Stacked column chart** to add it to the report.
+
+![](./images/s22.png)
 
 2. In the **FIELDS** pane, under **Sales** **vSalesPerson**, drag the **FirstName** field to the **Axis** box in the **VISUALIZATIONS** pane.
 
@@ -93,11 +109,15 @@
 
 7. Change the color for **Linda**, **Jae**, and **Michael** to red.
 
+![](./images/s23.png)
+
 8. Click the report canvas then in the **VISUALIZATIONS** pane, click **Pie chart**. Drag the pie chart to the right of the bar chart, or below if there is not enough space.
 
 9. In the **FIELDS** pane, under **Sales** **vStoreWithDemographics**, drag the **Specialty** field to the **Legend** box in the **VISUALIZATIONS** pane.
 
 10. Drag the **NumberEmployees** field to the **Values** box. The chart will populate with the data and should display three pie sections.
+
+![](./images/s24.png)
 
 11. Click the report canvas, then in the **VISUALIZATIONS** pane, click **Stacked column chart** to add it to the report. The chart should be located under the previous charts.
 
@@ -106,6 +126,8 @@
 13. Drag the **LineTotal** field to the **Value** box. The chart will populate with the data.
 
 14. Click the **Top 10 Selling Products** chart to give it focus, then in the **VISUALIZATIONS** pane, click **Donut chart**. Note how easy it is to switch to a different chart type.
+
+![](./images/s25.png)
 
 15. On the chart, grab the sizer on the right-hand side of the donut chart to widen the chart to display all the product names in full.
 
@@ -117,9 +139,13 @@
 
 19. Repeat Step 18 to rename the **AnnualSales** field to **Annual Sales**. Note that the names in the title and legend of the bar chart update accordingly.
 
+![](./images/s26.png)
+
 20. Click the report canvas, and then in the **VISUALIZATIONS** pane, click **Format**.
 
-21. Expand **Page information**, and in the **Name** box, type **Sales**, and then press Enter. Note the name has changed in the tab at the bottom of the report.
+21. Right click **Page 1** and select **Rename Page**, and in the **Name** box, type **Sales**, and then press Enter. Note the name has changed in the tab at the bottom of the report.
+
+![](./images/s27.png)
 
 22. On the **File** menu, click **Save**.
 
