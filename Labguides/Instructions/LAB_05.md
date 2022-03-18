@@ -33,17 +33,25 @@
 
 5. In the **Power BI Desktop** window, click **Get data**.
 
-6. In the **Get Data** dialog box, ensure **Excel WorkBook** is selected, and click **Connect**.
+6. In the **Get Data** dialog box, ensure **Excel WorkBook** is selected.
+
+![](./images/s33.png)
 
 7. In the **Open** dialog box, navigate to **D:\\Labfiles\\Lab05\\Starter\\Project**, click **Adventure Works Sales Data.xlsx**, and then click **Open**.
 
 13. In the **Navigator** dialog box, select the **DimCurrency**, **DimCustomer**, **DimDate**, **DimProduct**, **DimPromotion**, **DimSalesTerritory**, and **FactInternetSales** check boxes, and then click **Load**.
 
+![](./images/s49.png)
+
 14. In the views pane on the left-hand side, click **Model**.
+
+![](./images/s50.png)
 
 15. On the **Home** tab, click **Manage Relationships**.
 
 16. In the **Manage relationships** dialog box, click **New**.
+
+![](./images/s51.png)
 
 17. In the **Create relationship** dialog box, in the top table list, click **FactInternetSales**. When the table preview appears below, click the **OrderDateKey** column.
 
@@ -81,7 +89,11 @@
 
 33. Right-click the relationship line between **FactInternetSales** and **DimCustomer**, and then click **Delete**.
 
+![](./images/s52.png)
+
 34. In the **Delete Relationship** dialog box, click **Delete**.
+
+![](./images/s53.png)
 
 35. On the **Home** tab, click **Manage Relationships**.
 
@@ -107,9 +119,15 @@
 
 3. In the **Navigator** dialog box, select the **DimProductCategory**, and **DimProductSubcategory** check boxes, and then click **Load**.
 
+![](./images/d0.png)
+
 4. In the Model pane, look at the relationship that Power BI has created between the two tables.
 
 5. Right-click the relationship line between **DimProductCategory**, and **DimProductSubcategory**, and then click **Delete**.
+
+![](./images/d1.png)
+
+![](./images/d2.png)
 
 6. In the **Delete Relationship** dialog box, click **Delete**.
 
@@ -141,6 +159,8 @@
 
 2. In the **FIELDS** pane, right-click **DimCustomer**, and then click **New column**.
 
+![](./images/s54.png)
+
 3. In the formula bar, highlight **Column =**, type the following script, and then press Enter:
     ```
     IncomeStatus = IF (DimCustomer[YearlyIncome] < 25000, "Lower Income",
@@ -152,6 +172,8 @@
     IF (DimCustomer[YearlyIncome] >= 100000, "Very High Income", "Other"))))
     ```
 
+![](./images/s55.png)
+
 4. On the **Modeling** tab, in the **Calculations** group, click **New Column**.
 
 5. In the formula bar, highlight **Column =**, type the following script, and then press Enter:
@@ -161,9 +183,11 @@
 
 6. On the **Modeling** tab, in the **Calculations** group, click **New Column**.
 
+![](./images/s56.png)
+
 7. In the formula bar, highlight **Column =**, type the following script, and then press Enter:
     ```
-    FullName = [MiddleName] & " " & [LastName]
+    FullName = [FirstName] & " " & [LastName]
     ```
 
 8. On the **Modeling** tab, in the **Calculations** group, click **New Column**.
@@ -179,6 +203,8 @@
     ```
     Relationship = IF([MaritalStatus] = "M", "Married", "Single")
     ```
+
+![](./images/s57.png)
 
 12. In the **FIELDS** pane, right-click **DimProductSubcategory**, and then click **New column**.
 

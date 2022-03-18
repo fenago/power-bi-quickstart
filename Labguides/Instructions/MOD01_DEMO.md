@@ -92,7 +92,7 @@
 
 40. In the **FIELDS** pane, right-click **DimCustomer**, and then click **New column**.
 
-41. In the formula bar, type **FullName = DimCustomer[MiddleName] & " " & DimCustomer[LastName]**, and then press Enter.
+41. In the formula bar, type **FullName = DimCustomer[FirstName] & " " & DimCustomer[LastName]**, and then press Enter.
 
 42. On the **File** menu, click **Save**. Name the file **Adventure Works Sales**, and save the file to **D:\\Demofiles\\Mod01**.
 
