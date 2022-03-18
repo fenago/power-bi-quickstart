@@ -29,17 +29,28 @@
 
 5. In the **Power BI Desktop** window, click **Get data**.
 
-6. In the **Get Data** window, click **Excel Workbook**, and then click **Connect**.
+6. In the **Get Data** window, click **Excel Workbook**:
+
+![](./images/s33.png)
 
 7. In the **Open** dialog box, browse to the **D:\\Labfiles\\Lab04\\Starter\\Project** folder, click **Sales - Europe.xlsx**, and then click **Open**.
 
+![](./images/s34.png)
+
 8. In the **Navigator** window, select the **Europe** check box, and then click **Load**.
+
+![](./images/s35.png)
 
 9. On the **Home** tab, click the **Get Data** arrow, and then click **Excel Workbook**.
 
 10. In the **Open** dialog box, browse to the **D:\\Labfiles\\Lab04\\Starter\\Project** folder, click **Sales - North America.xlsx**, and then click **Open**.
 
+![](./images/s36.png)
+
 11. In the **Navigator** window, select the **North America** check box, and then click **Transform Data**. This opens the Power Query Editor window.
+
+![](./images/s37.png)
+
 
 #### Task 3: Apply Formatting to the Existing Data
 
@@ -47,9 +58,13 @@
 
 2. Right-click the **ProductKey** column, and click **Remove**.
 
+![](./images/s38.png)
+
 3. Right-click the **SalesOrderNumber** column, and click **Remove**.
 
 4. Right-click the **SalesTerritoryCountry** column, click **Rename**, type **Country**, and then press Enter.
+
+![](./images/s39.png)
 
 5. Right-click the **SalesTerritoryGroup** column, click **Rename**, type **Sales Territory**, and then press Enter.
 
@@ -59,7 +74,11 @@
 
 8. Right-click the **EnglishProductName** column, click **Rename**, type **Product**, and then press Enter.
 
+![](./images/s40.png)
+
 9. Right-click the **Color** column, point to **Move**, and then click **Left**.
+
+![](./images/s41.png)
 
 10. In the **Queries \[2\]** pane, click **North America**.
 
@@ -81,6 +100,8 @@
 
 19. On the **Home** tab, in the **Query** group, click **Advanced Editor**. Notice that the query includes the changes you have made, and then click **Cancel**.
 
+![](./images/s42.png)
+
 20. Leave the Power Query Editor window open for the next exercise.
 
 ---
@@ -93,15 +114,23 @@
 
 2. On the **Home** tab, in the **Combine** group, click **Append Queries**.
 
-3. In the **Append** dialog box, in the **Table to append** list, click **Sales NorthAmerica**, and then click **OK**. The rows are combined.
+![](./images/s43.png)
+
+3. In the **Append** dialog box, in the **Table to append** list, click **North America**, and then click **OK**. The rows are combined.
+
+![](./images/s44.png)
 
 4. On the **Country** column header, click the **Arrow**, and then click **Load** **more**. You should now see that **United States** and **Canada** are included, and then click **Cancel**.
+
+![](./images/s45.png)
 
 5. On the **Home** tab, click the **New Source** arrow, and then click **Excel WorkBook**.
 
 6. In the **Open** dialog box, browse to the **D:\\Labfiles\\Lab04\\Starter\\Project** folder, click **Country Codes.xlsx**, and then click **Open**.
 
 7. In the **Navigator** dialog box, select the **Country Codes** check box, and then click **OK**.
+
+![](./images/s46.png)
 
 8. Click **Use First Row as Headers** as shown below:
 
@@ -110,6 +139,8 @@
 9. In Power Query Editor, in the **Queries \[3\]** pane, click **Europe**.
 
 10. On the **Home** tab, in the **Combine** group, click **Merge Queries**.
+
+![](./images/s47.png)
 
 11. In the **Merge** dialog box, click the **Country** column to select it.
 
@@ -126,6 +157,8 @@
 15. Right-click the **Code** column, point to **Move**, and click **To Beginning**.
 
 16. Right-click the **Code** column, click **Rename**, type **Country Code**, and then press Enter.
+
+![](./images/s48.png)
 
 17. On the **Home** tab, click the **Close & Apply** arrow, and then click **Apply**.
 
