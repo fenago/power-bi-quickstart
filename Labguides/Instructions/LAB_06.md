@@ -6,14 +6,9 @@
       - [Task 1: Prepare the Environment](#task-1-prepare-the-environment)
       - [Task 2: Connect to Existing Data](#task-2-connect-to-existing-data)
       - [Task 3: Shape Data](#task-3-shape-data)
-      - [Task 4: Combine Data](#task-4-combine-data)
-    - [Exercise 2: Building Power BI Reports](#exercise-2-building-power-bi-reports)
-      - [Task 1: Create a Chart](#task-1-create-a-chart)
-      - [Task 2: Create a Map Visualization](#task-2-create-a-map-visualization)
-
-**Note:** Lab Solution is present in `D:\Labfiles\Lab06\Solution` folder:
-
-![](./images/lab6s.png)
+    - [Demo 1: Adding Visualizations to a Report](#demo-1-adding-visualizations-to-a-report)
+      - [Connect to a Database in SQL Database and Import Data](#connect-to-a-database-in-sql-database-and-import-data)
+      - [Add Visualizations to a Report](#add-visualizations-to-a-report)
 
 
 ## Lab: Creating a Power BI Report
@@ -198,212 +193,174 @@
 
 ![](./images/s71.png)
 
-34. On the **File** menu, click **Save**.
+34. On the **File** menu, click **Save** and close Power BI Desktop.
 
-#### Task 4: Combine Data
 
-1. In Power BI Desktop, on the **Home** tab, click the **Get Data** arrow, and then click **Excel workbook**.
+### Demo 1: Adding Visualizations to a Report
 
-2. In the **Open** dialog box, browse to the **D:\\Labfiles\\Lab06\\Starter\\Project** folder, click **States.xlsx**, and then click **Open**.
+#### Connect to a Database in SQL Database and Import Data
 
-3. In the **Navigator** dialog box, select the **States** check box, and then click **Load**.
+2. Open the **D:\\Demofiles\\Mod06** folder.
 
-![](./images/s72.png)
+3. Run **Setup.cmd** as **Administrator**.
 
-4. In the **FIELDS** pane, right-click **States**, click **Rename**, type **Sales by State**, and then press Enter.
+5. When the script completes, press any key to close the window.
 
-![](./images/s73.png)
+![](./images/s2.png)
 
-5. On the **Home** tab, the **Get Data** arrow, and then click **Web**.
+6. Start **Microsoft SQL Server Management Studio 18**, and then connect to the **localhost** database engine instance by using Windows® authentication.
 
-6. In the **From Web** dialog box, in the **URL** box, type **http://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations**, and then click **OK**.
+7. In the **D:\\Demofiles\\Mod06\\Demo** folder, open the **Demo.ssmssln** solution.
 
-![](./images/s74.png)
+8. In Solution Explorer, expand **Queries**, and then open the **1 - Charts.sql** script file.
 
-7. In the **Navigator** dialog box, select the **Codes and abbreviations for U.S. states, federal district, territories, and other regions** check box, and then click **Load**.
+![](./images/g2.png)
 
-8. In the **FIELDS** pane, click **Codes and abbreviations for U.S. states, federal district, territories, and other regions** to display the data. The table has 26 rows at the bottom and 3 rows at the top that are not needed.
+9. On the Taskbar, click **Power BI Desktop**.
 
-![](./images/s75.png)
+3. To close the getting started window, at the top-right of the window, click **X**.
 
-9. On the **Home** tab, in the **External data** group, click the **Edit Queries** arrow, and then click **Edit Queries**.
+13. In the **Power BI Desktop** window, click **Get data**.
 
-10. In Power Query Editor, in the **Queries [4]** pane, click **Codes and abbreviations for U.S. states, federal district, territories, and other regions**.
+14. In the **Get Data** dialog box, click **SQL Server**.
 
-11. On the **Home** tab, in the **Reduce Rows group**, click the **Remove Rows** arrow, and then click **Remove Bottom Rows**.
+![](./images/g3.png)
 
-12. In the **Remove Bottom Rows** dialog box, in the **Number of rows** box, type **26**, and then click **OK**.
+15. In the **SQL Server database** dialog box, in the **Server** box, type the URL of the server **localhost** .
 
-13. On the **Home** tab, in the **Reduce Rows group**, click the **Remove Rows** arrow, and then click **Remove Top Rows**.
+16. In the **Database (optional)** box, type **AdventureWorksLT**.
 
-14. In the **Remove Top Rows** dialog box, in the **Number of rows** box, type **3**, and then click **OK**.
+17. Expand the **Advanced options** box.
 
-15. Click the **ANSI2** column header, and then hold down the Ctrl key while selecting all of the columns to the right. This selects multiple rows.
+18. In SQL Server Management Studio, in the **1 - Charts.sql** query, copy the query under **Customer Address** to the clipboard.
 
-16. Still holding down Ctrl, click the **Name and status of region2** and **Header** columns to include this in the selection.
+19. In Power BI Desktop, in the **SQL statement (optional, requires database)** box, paste the query, and then click **OK**.
 
-17. On the **Home** tab, in the **Manage Columns group**, click the **Remove Columns** arrow, and then click **Remove Columns**.
+![](./images/g4.png)
 
-18. In the **QUERY SETTINGS** pane, under **Properties**, in the **Name** box, type **States with Codes**, and then press Enter.
+21. In the data preview window, click **Load**.
 
-19. On the **Home** tab, in the **Transform** group, click **Use First Row as Headers**.
+![](./images/g5.png)
 
-20. Right-click the **United States of America** column header, click **Rename**, type **State Name**, and then press Enter.
+22. On the **Home** tab, click **Get Data**.
 
-21. Right-click the **US USA 840** column header, click **Rename**, type **State Code Long**, and then press Enter.
+23. In the **Get Data** dialog box, click **SQL Server**.
 
-22. In the **Queries [4]** pane, click **Sales by State**.
+24. In the **SQL Server database** dialog box, in the **Server** box, type the URL of the server **localhost** .
 
-23. On the **Home** tab, click **Combine**, and then click **Merge Queries**.
+25. In the **Database (optional)** box, type **AdventureWorksLT**.
 
-24. In the **Merge** dialog box, in the **Sales by State** table, click the **States** column.
+26. Expand the **Advanced options** box.
 
-25. In the list, click **States with Codes**, and then click the **State Name** column.
+27. In SQL Server Management Studio, in the **1 - Charts.sql** query, copy the query under **Sales** to the clipboard.
 
-26. If the **Privacy levels** dialog box appears, in both the right-hand list boxes, click **Organizational**, and then click **Save**.
+28. In Power BI Desktop, in the **SQL statement (optional, requires database)** box, paste the query, and then click **OK**.
 
-27. In the **Merge** dialog box, click **OK**. The new column is added to the table and contains the merged **States with Codes** table.
+![](./images/g6.png)
 
-28. If the **Information is required about data privacy** message appears, click **Continue**.
+29. In the data preview window, click **Load**.
 
-29. In the **States with Codes** column header, click the **Expand** icon, clear **(Select All Columns)**, select **State Code Long**, and then click **OK**. The column now shows just the state codes.
+![](./images/g7.png)
 
-30. Right-click the **States with Codes.State Code Long** column, click **Rename**, type **State Code**, and then press Enter.
+30. The window will close and return to the report.
 
-31. On the **File** menu, click **Close & Apply**.
+#### Add Visualizations to a Report
 
-32. If the **Apply query changes** dialog box appears, click **Close**.
+1. In the **FIELDS** pane, right-click **Query1**, click **Rename**, type **Customers**, and then press Enter.
 
-33. If the **There are pending changes in your queries that haven't been applied** message appears, click **Apply changes**.
+2. Right-click **Query2**, click **Rename**, type **Sales**, and then press Enter. Expand the two tables to display all the fields.
 
-34. In the **FIELDS** pane, right-click **States with Codes**, and then click **Hide in report view**.
+![](./images/g8.png)
 
-35. On the **File** menu, click **Save**.
+3. In the **FIELDS** pane, under **Sales**, select the **SubCategory**, and **OrderQty** check boxes. Power BI creates a table.
 
-36. Leave Power BI Desktop open for the next exercise.
+4. In the **VISUALIZATIONS** pane, click **Stacked column chart**.
 
----
+![](./images/g9.png)
 
-### Exercise 2: Building Power BI Reports
+5. Grab the expander on the right edge of the chart, and then widen the chart so that all category labels are visible.
 
-#### Task 1: Create a Chart
+6. Ensure that the chart is still selected, and then in the **VISUALIZATIONS** pane, click **Analytics**.
 
-1. In Power BI Desktop, in the left navigation bar, click **Report**.
+![](./images/g10.png)
 
-2. In the **VISUALIZATIONS** pane, click **Gauge**.
+7. Expand **Constant Line**, and click **Add**.
 
-3. In the **FIELDS** pane, in the **Sales** table, drag the **LineTotal** field to the **Value** property of the gauge.
+![](./images/g11.png)
 
-4. In the **FIELDS** pane, in the **Sales** table, drag the **TargetSales** measure to the **Target value** property of the gauge.
+8. In the **Value** box, type **100**.
 
-5. In the **VISUALIZATIONS** pane, click **Format**, expand **Gauge axis**, and then in the **Max** box, type **1460000**.
+9. Change the color to **red**.
 
-6. Expand **Title**, in the **Title text** box, type **Target Sales**, and then click **Center**.
+10. Toggle **Data label** to **On**.
 
-7. Click an empty area on the report canvas.
+11. Change the color to **red** to match the reference line.
 
-8. In the **FIELDS** pane, in the **Customers** table, drag the **CompanyName** field onto the report.
+![](./images/g12.png)
 
-9. In the **FIELDS** pane, in the **Sales** table, select the **LineTotal** check box.
+12. Click **Format**, and expand **Title**, in the **Title text** box, type **Orders by Sub Category**, and then click **Center** to align to the center.
 
-10. In the **VISUALIZATIONS** pane, click **Pie chart**.
+![](./images/g13.png)
 
-11. Expand the chart to make all of the company names visible by using the resizer handles on the edge of the chart.
+13. In the **FIELDS** pane, right-click **Sales**, and then click **New column**.
 
-12. With the focus still on the pie chart, in the **VISUALIZATIONS** pane, click **Format**, and then click **Title**.
+14. In the formula bar, highlight **Column =**, type the following script, and then press Enter:
+    ```
+    LineTotal = Sales[OrderQty] * Sales[ListPrice]
+    ```
 
-13. In the **Title text** box, type **Top Selling Customers**, and then click **Center**.
+15. On the **Modeling** tab, click **Format: General**, point to **Currency**, and then click **$ English (United States)**.
 
-14. In the **FIELDS** pane, in the **Sales** table, drag the **MainCategory** field onto the report canvas.
+![](./images/g14.png)
 
-15. In the **FIELDS** pane, in the **Sales** table, drag the **OrderQty** field onto the table.
+16. Click a blank area of the page.
 
-16. In the **VISUALIZATIONS** pane, click **Stacked bar chart**.
+17. In the **FIELDS** pane, under **Sales**, select the **Product** check box, which adds a table, and then select the **LineTotal** check box.
 
-17. In the **VISUALIZATIONS** pane, click **Analytics**, expand **Constant Line**, and then click **Add**.
+![](./images/g15.png)
 
-18. In the **Value** box, type **500**.
+18. In the **VISUALIZATIONS** pane, click **Fields**, under **Filters**, expand **LineTotal is (All)**.
 
-19. Change **Color** to red, toggle **Data label** to **On**, and then change the color to **red**.
+19. In the list, click **is greater than**, and in the box, type **25000**.
 
-20. In the **VISUALIZATIONS** pane, click **Format**, and expand **Title**.
+20. Click **Apply filter**, and then note that the number of products in the table is reduced.
 
-21. In the **Title Text** box, type **Orders by Main Category**, and then click **Center**.
+![](./images/g16.png)
 
-22. Click the report canvas to give it focus, and then in the **VISUALIZATIONS** pane, click **Donut chart**.
+21. In the **VISUALIZATIONS** pane, click **Format**, click **Title**, and change the **Title** slider to **On**.
 
-23. In the **FIELDS** pane, in the **Sales** table, select the **MainCategory** and **LineTotal** check boxes.
+22. Under **Title**, in the **Title text** box, type **Product Sales Over $25k**, and then click **Center**.
 
-24. In the **VISUALIZATIONS** pane, click **Format**, and then expand **Title**.
+![](./images/g17.png)
 
-25. In the **Title Text** box, type **Sales by Main Category**, and then click **Center**.
+23. Select the table, and then click **Stacked bar chart**.
 
-26. In the **FIELDS** pane, in the **Sales** table, drag the **Product** field onto the report canvas.
+24. Use the expander to widen the chart to the same width as the column chart.
 
-27. In the **FIELDS** pane, in the **Sales** table, drag the **LineTotal** field onto the products table chart.
+![](./images/g18.png)
 
-28. In the **FIELDS** pane, in the **Sales** table, select the **MainCategory** check box.
+25. On the chart, click three dot icon, point to **Sort axis**, and then click **LineTotal**.
 
-29. In the **VISUALIZATIONS** pane, click **Fields**.
+![](./images/g19.png)
 
-30. In the **Filters** pane, expand **LineTotal is (All)**.
+26. At the bottom of the window, click the **+** icon to add a new report.
 
-31. In the **Show items when the value** list, click **is greater than**, in the box below, type **32000**, and then click **Apply filter**.
+![](./images/g20.png)
 
-32. Expand **MainCategory is (All)**, and then select the **Bikes** check box.
+27. Click `Model` tab from the left Menu, click **Manage Relationships**, and then point out that Power BI has auto-detected the relationship on the **CustomerID** columns, and then click **Close**.
 
-33. In the **VISUALIZATIONS** pane, click **Stacked column chart**.
+![](./images/g21.png)
 
-34. In the **VISUALIZATIONS** pane, click **Format**, and then expand **Title**.
+28. In the **FIELDS** pane, expand **Customers**, and then select the **City** check box. Power BI automatically adds a map chart.
 
-35. In the **Title Text** box, type **Top Selling Bikes**, and then click **Center**.
+![](./images/g22.png)
 
-36. In the **VISUALIZATIONS** pane, click **Analytics**, expand **Constant Line**, and then click **Add**.
+**Note:** Enable map and filled map visuals options if you get an error.
 
-37. In the **Value** box, type **35000**, and then set **Color** to **red**.
+29. In the **FIELDS** pane, under **Sales**, select the **LineTotal** check box to add it to the map. Grab the right corner of the map, and then drag it to fill the whole of the report page.
 
-38. Toggle **Data label** to **On**, and then set **Color** to **red**.
+30. Zoom in on the map to focus on any place. Point out that the bubbles now represent the sales for each customer, and are proportionately sized. Position the cursor over some of the bubbles to display the data labels.
 
-39. Expand the chart to fill the remaining space on the report canvas. If necessary, move your visuals around to make them fit.
+![](./images/g23.png)
 
-40. On the **File** menu, click **Save**.
-
-#### Task 2: Create a Map Visualization
-
-1. At the bottom of the report, click the **+** icon to add a new page.
-
-2. In the **FIELDS** pane, in the **Customers** table, select the **City** check box.
-
-3. In the **FIELDS** pane, in the **Sales** table, select the **LineTotal** check box.
-
-4. Using the grabber tool on the right side of the chart, resize the map to show all of the bubbles.
-
-5. Notice that the bubbles are proportionally sized to represent the data.
-
-6. In the **VISUALIZATIONS** pane, click **Format**, and then expand **Title**.
-
-7. In the **Title Text** box, type **World Sales by City**, and then click **Center**.
-
-8. Click the report canvas, and then in the **Sales by State** table, select the **State Code** check box.
-
-9. In the **Sales by State** table, select the **SalesYTD** check box.
-
-10. Using the grabber tool on the right side and at the bottom of the chart, resize the map to show all the states.
-
-11. Notice that the sales cluster in one area.
-
-12. Position the cursor on **US-CA** to see the sales figure. The value has not been formatted as currency.
-
-13. In the **FIELDS** pane, in the **Sales by State** table, click **SalesYTD**.
-
-14. On the **Modeling** tab, click **Format: General**, point to **Currency**, and then click **$ English (United Stated)**.
-
-15. Position the cursor on **US-CA** on the map, and notice that the value has been formatted.
-
-16. In the **VISUALIZATIONS** pane, click **Format**, and then expand **Title**.
-
-17. In the **Title Text** box, type **Sales by State**, and then click **Center**.
-
-18. On the **File** menu, click **Save**.
-
-19. Close Power BI Desktop, and then close SQL Server Management Studio without saving any changes.
+31. Close Power BI Desktop, and then close SQL Server Management Studio without saving any changes.
