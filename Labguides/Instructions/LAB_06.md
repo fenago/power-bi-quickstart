@@ -200,69 +200,69 @@
 
 #### Connect to a Database in SQL Database and Import Data
 
-2. Open the **D:\\Labfiles\\Lab06** folder.
+1. Open the **D:\\Labfiles\\Lab06** folder.
 
-3. Run **Setup.cmd** as **Administrator**.
+2. Run **Setup.cmd** as **Administrator**.
 
-5. When the script completes, press any key to close the window.
+3. When the script completes, press any key to close the window.
 
 ![](./images/s2.png)
 
-6. Start **Microsoft SQL Server Management Studio 18**, and then connect to the **localhost** database engine instance by using Windows® authentication.
+4. Start **Microsoft SQL Server Management Studio 18**, and then connect to the **localhost** database engine instance by using Windows® authentication.
 
-7. In the **D:\\Labfiles\\Lab06\\Demo** folder, open the **Demo.ssmssln** solution.
+5. In the **D:\\Labfiles\\Lab06\\Demo** folder, open the **Demo.ssmssln** solution.
 
-8. In Solution Explorer, expand **Queries**, and then open the **1 - Charts.sql** script file.
+6. In Solution Explorer, expand **Queries**, and then open the **1 - Charts.sql** script file.
 
 ![](./images/g2.png)
 
-9. On the Taskbar, click **Power BI Desktop**.
+7. On the Taskbar, click **Power BI Desktop**.
 
-3. To close the getting started window, at the top-right of the window, click **X**.
+8. To close the getting started window, at the top-right of the window, click **X**.
 
-13. In the **Power BI Desktop** window, click **Get data**.
+9. In the **Power BI Desktop** window, click **Get data**.
 
-14. In the **Get Data** dialog box, click **SQL Server**.
+10. In the **Get Data** dialog box, click **SQL Server**.
 
 ![](./images/g3.png)
 
-15. In the **SQL Server database** dialog box, in the **Server** box, type the URL of the server **localhost** .
+11. In the **SQL Server database** dialog box, in the **Server** box, type the URL of the server **localhost** .
 
-16. In the **Database (optional)** box, type **AdventureWorksLT**.
+12. In the **Database (optional)** box, type **AdventureWorksLT**.
 
-17. Expand the **Advanced options** box.
+13. Expand the **Advanced options** box.
 
-18. In SQL Server Management Studio, in the **1 - Charts.sql** query, copy the query under **Customer Address** to the clipboard.
+14. In SQL Server Management Studio, in the **1 - Charts.sql** query, copy the query under **Customer Address** to the clipboard.
 
-19. In Power BI Desktop, in the **SQL statement (optional, requires database)** box, paste the query, and then click **OK**.
+15. In Power BI Desktop, in the **SQL statement (optional, requires database)** box, paste the query, and then click **OK**.
 
 ![](./images/g4.png)
 
-21. In the data preview window, click **Load**.
+16. In the data preview window, click **Load**.
 
 ![](./images/g5.png)
 
-22. On the **Home** tab, click **Get Data**.
+17. On the **Home** tab, click **Get Data**.
 
-23. In the **Get Data** dialog box, click **SQL Server**.
+18. In the **Get Data** dialog box, click **SQL Server**.
 
-24. In the **SQL Server database** dialog box, in the **Server** box, type the URL of the server **localhost** .
+19. In the **SQL Server database** dialog box, in the **Server** box, type the URL of the server **localhost** .
 
-25. In the **Database (optional)** box, type **AdventureWorksLT**.
+20. In the **Database (optional)** box, type **AdventureWorksLT**.
 
-26. Expand the **Advanced options** box.
+21. Expand the **Advanced options** box.
 
-27. In SQL Server Management Studio, in the **1 - Charts.sql** query, copy the query under **Sales** to the clipboard.
+22. In SQL Server Management Studio, in the **1 - Charts.sql** query, copy the query under **Sales** to the clipboard.
 
-28. In Power BI Desktop, in the **SQL statement (optional, requires database)** box, paste the query, and then click **OK**.
+23. In Power BI Desktop, in the **SQL statement (optional, requires database)** box, paste the query, and then click **OK**.
 
 ![](./images/g6.png)
 
-29. In the data preview window, click **Load**.
+24. In the data preview window, click **Load**.
 
 ![](./images/g7.png)
 
-30. The window will close and return to the report.
+25. The window will close and return to the report.
 
 #### Add Visualizations to a Report
 
