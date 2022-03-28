@@ -3,7 +3,6 @@
 - [Module 6: Interactive Data Visualizations](#module-6-interactive-data-visualizations)
   - [Lesson 1: Creating Power BI Reports](#lesson-1-creating-power-bi-reports)
     - [Demo 1: Adding Visualizations to a Report](#demo-1-adding-visualizations-to-a-report)
-      - [Sign up for Power BI](#sign-up-for-power-bi)
       - [Connect to a Database in SQL Database and Import Data](#connect-to-a-database-in-sql-database-and-import-data)
       - [Add Visualizations to a Report](#add-visualizations-to-a-report)
 
@@ -20,9 +19,10 @@
 
 3. Run **Setup.cmd** as **Administrator**.
 
-4. Optionally if prompted to continue this operation, type **Y**, and then press Enter.
-
 5. When the script completes, press any key to close the window.
+
+![](./images/s2.png)
+
 
 6. Start **Microsoft SQL Server Management Studio 18**, and then connect to the **localhost** database engine instance by using Windows® authentication.
 
@@ -30,13 +30,17 @@
 
 8. In Solution Explorer, expand **Queries**, and then open the **1 - Charts.sql** script file.
 
+![](./images/g2.png)
+
 9. On the Taskbar, click **Power BI Desktop**.
 
 3. To close the getting started window, at the top-right of the window, click **X**.
 
 13. In the **Power BI Desktop** window, click **Get data**.
 
-14. In the **Get Data** dialog box, click **SQL Server**, and then click **Connect**.
+14. In the **Get Data** dialog box, click **SQL Server**.
+
+![](./images/g3.png)
 
 15. In the **SQL Server database** dialog box, in the **Server** box, type the URL of the server **localhost** .
 
@@ -48,11 +52,15 @@
 
 19. In Power BI Desktop, in the **SQL statement (optional, requires database)** box, paste the query, and then click **OK**.
 
+![](./images/g4.png)
+
 21. In the data preview window, click **Load**.
+
+![](./images/g5.png)
 
 22. On the **Home** tab, click **Get Data**.
 
-23. In the **Get Data** dialog box, click **SQL Server**, and then click **Connect**.
+23. In the **Get Data** dialog box, click **SQL Server**.
 
 24. In the **SQL Server database** dialog box, in the **Server** box, type the URL of the server **localhost** .
 
@@ -64,7 +72,11 @@
 
 28. In Power BI Desktop, in the **SQL statement (optional, requires database)** box, paste the query, and then click **OK**.
 
+![](./images/g6.png)
+
 29. In the data preview window, click **Load**.
+
+![](./images/g7.png)
 
 30. The window will close and return to the report.
 
@@ -74,15 +86,23 @@
 
 2. Right-click **Query2**, click **Rename**, type **Sales**, and then press Enter. Expand the two tables to display all the fields.
 
+![](./images/g8.png)
+
 3. In the **FIELDS** pane, under **Sales**, select the **SubCategory**, and **OrderQty** check boxes. Power BI creates a table.
 
 4. In the **VISUALIZATIONS** pane, click **Stacked column chart**.
+
+![](./images/g9.png)
 
 5. Grab the expander on the right edge of the chart, and then widen the chart so that all category labels are visible.
 
 6. Ensure that the chart is still selected, and then in the **VISUALIZATIONS** pane, click **Analytics**.
 
+![](./images/g10.png)
+
 7. Expand **Constant Line**, and click **Add**.
+
+![](./images/g11.png)
 
 8. In the **Value** box, type **100**.
 
@@ -92,7 +112,11 @@
 
 11. Change the color to **red** to match the reference line.
 
+![](./images/g12.png)
+
 12. Click **Format**, and expand **Title**, in the **Title text** box, type **Orders by Sub Category**, and then click **Center** to align to the center.
+
+![](./images/g13.png)
 
 13. In the **FIELDS** pane, right-click **Sales**, and then click **New column**.
 
@@ -103,9 +127,13 @@
 
 15. On the **Modeling** tab, click **Format: General**, point to **Currency**, and then click **$ English (United States)**.
 
+![](./images/g14.png)
+
 16. Click a blank area of the page.
 
 17. In the **FIELDS** pane, under **Sales**, select the **Product** check box, which adds a table, and then select the **LineTotal** check box.
+
+![](./images/g15.png)
 
 18. In the **VISUALIZATIONS** pane, click **Fields**, under **Filters**, expand **LineTotal is (All)**.
 
@@ -113,27 +141,42 @@
 
 20. Click **Apply filter**, and then note that the number of products in the table is reduced.
 
+![](./images/g16.png)
+
 21. In the **VISUALIZATIONS** pane, click **Format**, click **Title**, and change the **Title** slider to **On**.
 
 22. Under **Title**, in the **Title text** box, type **Product Sales Over $25k**, and then click **Center**.
+
+![](./images/g17.png)
 
 23. Select the table, and then click **Stacked bar chart**.
 
 24. Use the expander to widen the chart to the same width as the column chart.
 
-25. On the chart, click **More options**, point to **Sort by**, and then click **LineTotal**.
+![](./images/g18.png)
+
+25. On the chart, click three dot icon, point to **Sort axis**, and then click **LineTotal**.
+
+![](./images/g19.png)
 
 26. At the bottom of the window, click the **+** icon to add a new report.
 
-27. On the **Home** tab, click **Manage Relationships**, and then point out that Power BI has auto-detected the relationship on the **CustomerID** columns, and then click **Close**.
+![](./images/g20.png)
+
+27. Click `Model` tab from the left Menu, click **Manage Relationships**, and then point out that Power BI has auto-detected the relationship on the **CustomerID** columns, and then click **Close**.
+
+![](./images/g21.png)
 
 28. In the **FIELDS** pane, expand **Customers**, and then select the **City** check box. Power BI automatically adds a map chart.
 
+![](./images/g22.png)
+
+**Note:** Enable map and filled map visuals options if you get an error.
+
 29. In the **FIELDS** pane, under **Sales**, select the **LineTotal** check box to add it to the map. Grab the right corner of the map, and then drag it to fill the whole of the report page.
 
-30. Zoom in on the map to focus on the **UK**. Point out that the bubbles now represent the sales for each customer, and are proportionately sized. Position the cursor over some of the bubbles to display the data labels.
+30. Zoom in on the map to focus on any place. Point out that the bubbles now represent the sales for each customer, and are proportionately sized. Position the cursor over some of the bubbles to display the data labels.
 
-31. Save the file as **Customer Sales**, in the **D:\\Demofiles\\Mod06\\Demo** folder.
+![](./images/g23.png)
 
-32. Leave Power BI open for the next demonstration.
-
+31. Close Power BI Desktop.
