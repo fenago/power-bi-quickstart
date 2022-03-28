@@ -200,7 +200,7 @@
 
 #### Connect to a Database in SQL Database and Import Data
 
-2. Open the **D:\\Demofiles\\Mod06** folder.
+2. Open the **D:\\Labfiles\\Lab06** folder.
 
 3. Run **Setup.cmd** as **Administrator**.
 
@@ -210,7 +210,7 @@
 
 6. Start **Microsoft SQL Server Management Studio 18**, and then connect to the **localhost** database engine instance by using Windows® authentication.
 
-7. In the **D:\\Demofiles\\Mod06\\Demo** folder, open the **Demo.ssmssln** solution.
+7. In the **D:\\Labfiles\\Lab06\\Demo** folder, open the **Demo.ssmssln** solution.
 
 8. In Solution Explorer, expand **Queries**, and then open the **1 - Charts.sql** script file.
 
