@@ -10,16 +10,6 @@
 
 ### Demo 1: Importing Data with Power BI Desktop
 
-1. Ensure that you have copied all folders from `Desktop/power-bi-quickstart` folder into **D:\\** drive before starting the lab.
-
-2. Open the **D:\\Demofiles\\Mod01** folder.
-
-3. Run **Setup.cmd** as **Administrator**.
-
-4. Optionally if prompted to continue this operation, type **Y**, and then press Enter.
-
-5. When the script completes, press any key to close the window.
-
 6. On the desktop, double-click **Power BI Desktop**.
 
 7. To close the getting started window, at the top-right of the window, click **X**.
@@ -94,7 +84,7 @@
 
 41. In the formula bar, type **FullName = DimCustomer[FirstName] & " " & DimCustomer[LastName]**, and then press Enter.
 
-42. On the **File** menu, click **Save**. Name the file **Adventure Works Sales**, and save the file to **D:\\Demofiles\\Mod01**.
+42. On the **File** menu, click **Save**. Name the file **Adventure Works Sales**, and save the file to **Desktop\\power-bi-quickstart\\Demofiles\\Mod01**.
 
 43. Leave Power BI Desktop open for the next demonstration.
 

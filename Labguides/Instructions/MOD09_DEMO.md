@@ -8,9 +8,9 @@
 
 ### Demo 1: Creating reports and dashboards for mobile apps
 
-1. Ensure that you have copied all folders from `Desktop/power-bi-quickstart` folder into **D:\\** drive before starting the lab.
+1. Connect to virtual lab environment.
 
-2. Open the **D:\\Demofiles\\Mod09** folder.
+2. Open the **Desktop\\power-bi-quickstart\\Demofiles\\Mod09** folder.
 
 3. Run **Setup.cmd** as **Administrator**.
 
@@ -24,7 +24,7 @@
 
 8. In the **Power BI Desktop** window, click **Open other reports**.
 
-9. In the **Open** dialog box, browse to **D:\\Demofiles\\Mod09\\Demo**, click **AdventureWorks Sales.pbix**, and then click **Open**.
+9. In the **Open** dialog box, browse to **Desktop\\power-bi-quickstart\\Demofiles\\Mod09\\Demo**, click **AdventureWorks Sales.pbix**, and then click **Open**.
 
 10. If the **Introducing Q&A** dialog box appears, click **Got it**.
 

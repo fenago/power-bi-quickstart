@@ -6,17 +6,13 @@
       - [Task 1: Prepare the Lab Environment](#task-1-prepare-the-lab-environment)
       - [Task 2: Using Custom Visuals](#task-2-using-custom-visuals)
 
-**Note:** Lab Solution is present in `D:\Labfiles\Lab08\Solution` folder:
+**Note:** Lab Solution is present in `Desktop\power-bi-quickstart\Labfiles\Lab08\Solution` folder:
 
 ### Exercise 1: Use a Custom Visualization
 
 #### Task 1: Prepare the Lab Environment
 
-1. Ensure that you have copied all folders from `Desktop/power-bi-quickstart` folder into **D:\\** drive before starting the lab.
-
-2. In the **D:\\Labfiles\\Lab08\\Starter** folder, right-click **Setup.cmd**, and then click **Run as administrator**.
-
-3. When the script completes, press any key to close the window.
+Lab environment is already setup.
 
 #### Task 2: Using Custom Visuals
 
@@ -26,7 +22,7 @@
 
 3. In the **Power BI Desktop** window, click **Open other reports**.
 
-4. In the **Open** dialog box, browse to **D:\\Labfiles\\Lab08\\Starter\\Project**, click **Adventure Works Sales.pbix**, and then click **Open**.
+4. In the **Open** dialog box, browse to **Desktop\\power-bi-quickstart\\Labfiles\\Lab08\\Starter\\Project**, click **Adventure Works Sales.pbix**, and then click **Open**.
 
 5. In the PowerBI application in the Visualizations panel, locate the **Sunburst** visual and click it:
 

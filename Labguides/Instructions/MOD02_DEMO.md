@@ -9,19 +9,9 @@
 
 ### Demo 1: Creating a Report with Power BI Desktop
 
-1. Ensure that you have copied all folders from `Desktop/power-bi-quickstart` folder into **D:\\** drive before starting the lab.
-
-2. Open the **D:\\Demofiles\\Mod02** folder.
-
-3. Run **Setup.cmd** as **Administrator**.
-
-4. Optionally if prompted to continue this operation, type **Y**, and then press Enter.
-
-5. When the script completes, press any key to close the window.
-
 6. Start **Microsoft SQL Server Management Studio 18**, and connect to the **localhost** database engine instance using Windows authentication.
 
-7. Open the **Demo.ssmssln** solution in the **D:\\Demofiles\\Mod02\\Demo** folder.
+7. Open the **Demo.ssmssln** solution in the **Desktop\\power-bi-quickstart\\Demofiles\\Mod02\\Demo** folder.
 
 8. In Solution Explorer, expand **Queries**, and then open the **1 - Power BI.sql** script file.
 
@@ -61,4 +51,4 @@
 
 ![](./images/22.png)
 
-26. On the **File** menu, click **Save As**. Name the report **Adventure Works Sales 2**, and save to the **D:\\Demofiles\\Mod02\\Demo** folder.
+26. On the **File** menu, click **Save As**. Name the report **Adventure Works Sales 2**, and save to the **Desktop\\power-bi-quickstart\\Demofiles\\Mod02\\Demo** folder.

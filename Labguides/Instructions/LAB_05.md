@@ -9,7 +9,7 @@
     - [Exercise 2: Calculations](#exercise-2-calculations)
       - [Task 1: Adding Calculated Columns](#task-1-adding-calculated-columns)
 
-**Note:** Lab Solution is present in `D:\Labfiles\Lab05\Solution` folder:
+**Note:** Lab Solution is present in `Desktop\power-bi-quickstart\Labfiles\Lab05\Solution` folder:
 
 ## Lab: Modeling Data
 
@@ -17,11 +17,7 @@
 
 #### Task 1: Preparing the Environment
 
-1. Ensure that you have copied all folders from `Desktop/power-bi-quickstart` folder into **D:\\** drive before starting the lab.
-
-2. In File Explorer, in the **D:\\Labfiles\\Lab05\\Starter** folder, right-click **Setup.cmd**, and then click **Run as administrator**.
-
-3. When the script completes, press any key to close the window.
+Lab environment is already setup.
 
 #### Task 2: Automatic Relationships
 
@@ -37,7 +33,7 @@
 
 ![](./images/s33.png)
 
-7. In the **Open** dialog box, navigate to **D:\\Labfiles\\Lab05\\Starter\\Project**, click **Adventure Works Sales Data.xlsx**, and then click **Open**.
+7. In the **Open** dialog box, navigate to **Desktop\\power-bi-quickstart\\Labfiles\\Lab05\\Starter\\Project**, click **Adventure Works Sales Data.xlsx**, and then click **Open**.
 
 13. In the **Navigator** dialog box, select the **DimCurrency**, **DimCustomer**, **DimDate**, **DimProduct**, **DimPromotion**, **DimSalesTerritory**, and **FactInternetSales** check boxes, and then click **Load**.
 
@@ -109,13 +105,13 @@
 
 41. On the **File** menu, click **Save**.
 
-42. In the **Save As** dialog box, navigate to the **D:\\Labfiles\\Lab05\\Starter** folder, and in the **File name** box, type **Adventure Works Sales 5.pbix**, and then click **Save**.
+42. In the **Save As** dialog box, navigate to the **Desktop\\power-bi-quickstart\\Labfiles\\Lab05\\Starter** folder, and in the **File name** box, type **Adventure Works Sales 5.pbix**, and then click **Save**.
 
 #### Task 3: Manual Relationships
 
 1. In Power BI Desktop, on the **Home** tab, click the **Get Data** arrow, and then click **Excel**.
 
-2. In the **Open** dialog box, navigate to **D:\\Labfiles\\Lab05\\Starter\\Project**, click **Adventure Works Product Categories.xlsx**, and then click **Open**.
+2. In the **Open** dialog box, navigate to **Desktop\\power-bi-quickstart\\Labfiles\\Lab05\\Starter\\Project**, click **Adventure Works Product Categories.xlsx**, and then click **Open**.
 
 3. In the **Navigator** dialog box, select the **DimProductCategory**, and **DimProductSubcategory** check boxes, and then click **Load**.
 

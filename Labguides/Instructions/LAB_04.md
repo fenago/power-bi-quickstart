@@ -9,7 +9,7 @@
     - [Exercise 2: Combine Power BI Data](#exercise-2-combine-power-bi-data)
       - [Task 1: Add Related Data to the Shaped Data](#task-1-add-related-data-to-the-shaped-data)
 
-**Note:** Lab Solution is present in `D:\Labfiles\Lab04\Solution` folder:
+**Note:** Lab Solution is present in `Desktop\power-bi-quickstart\Labfiles\Lab04\Solution` folder:
 
 ## Lab: Shaping and Combining Data
 
@@ -17,7 +17,7 @@
 
 #### Task 1: Preparing the Environment
 
-- Ensure that you have copied all folders from `Desktop/power-bi-quickstart` folder into **D:\\** drive before starting the lab.
+Lab environment is already setup.
 
 #### Task 2: Import Data from Excel
 
@@ -33,7 +33,7 @@
 
 ![](./images/s33.png)
 
-7. In the **Open** dialog box, browse to the **D:\\Labfiles\\Lab04\\Starter\\Project** folder, click **Sales - Europe.xlsx**, and then click **Open**.
+7. In the **Open** dialog box, browse to the **Desktop\\power-bi-quickstart\\Labfiles\\Lab04\\Starter\\Project** folder, click **Sales - Europe.xlsx**, and then click **Open**.
 
 ![](./images/s34.png)
 
@@ -43,7 +43,7 @@
 
 9. On the **Home** tab, click the **Get Data** arrow, and then click **Excel Workbook**.
 
-10. In the **Open** dialog box, browse to the **D:\\Labfiles\\Lab04\\Starter\\Project** folder, click **Sales - North America.xlsx**, and then click **Open**.
+10. In the **Open** dialog box, browse to the **Desktop\\power-bi-quickstart\\Labfiles\\Lab04\\Starter\\Project** folder, click **Sales - North America.xlsx**, and then click **Open**.
 
 ![](./images/s36.png)
 
@@ -126,7 +126,7 @@
 
 5. On the **Home** tab, click the **New Source** arrow, and then click **Excel WorkBook**.
 
-6. In the **Open** dialog box, browse to the **D:\\Labfiles\\Lab04\\Starter\\Project** folder, click **Country Codes.xlsx**, and then click **Open**.
+6. In the **Open** dialog box, browse to the **Desktop\\power-bi-quickstart\\Labfiles\\Lab04\\Starter\\Project** folder, click **Country Codes.xlsx**, and then click **Open**.
 
 7. In the **Navigator** dialog box, select the **Country Codes** check box, and then click **OK**.
 

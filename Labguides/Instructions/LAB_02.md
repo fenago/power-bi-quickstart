@@ -7,7 +7,7 @@
       - [Task 2: Connect to SQL Server from the Power BI Desktop](#task-2-connect-to-sql-server-from-the-power-bi-desktop)
       - [Task 3: Add Charts to the Report](#task-3-add-charts-to-the-report)
 
-**Note:** Lab Solution is present in `D:\Labfiles\Lab02\Solution` folder:
+**Note:** Lab Solution is present in `Desktop\power-bi-quickstart\Labfiles\Lab02\Solution` folder:
 
 ## Lab: Creating Power BI Charts
 
@@ -15,11 +15,7 @@
 
 #### Task 1: Prepare the Lab Environment
 
-1. Ensure that you have copied all folders from `Desktop/power-bi-quickstart` folder into **D:\\** drive before starting the lab.
-
-2. In the **D:\\Labfiles\\Lab02\\Starter** folder, right-click **Setup.cmd**, and then click **Run as administrator**.
-
-3. When the script completes, press any key to close the window.
+Lab environment is already setup.
 
 
 #### Task 2: Connect to SQL Server from the Power BI Desktop
@@ -149,8 +145,8 @@
 
 22. On the **File** menu, click **Save**.
 
-23. In the **Save As** dialog box, navigate to **D:\\Labfiles\\Lab02**.
+23. In the **Save As** dialog box, navigate to **Desktop\\power-bi-quickstart\\Labfiles\\Lab02**.
 
 24. Click **New folder**, type **Power BI**, and then press Enter.
 
-25. Navigate to **D:\\Labfiles\\Lab02\\Power BI**, in the **File name** box, type **Adventure Works Sales 2**, and then click **Save**.
+25. Navigate to **Desktop\\power-bi-quickstart\\Labfiles\\Lab02\\Power BI**, in the **File name** box, type **Adventure Works Sales 2**, and then click **Save**.

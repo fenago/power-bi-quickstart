@@ -16,9 +16,9 @@
 
 #### Demo 1: Working with Relationships in Power BI
 
-1. Ensure that you have copied all folders from `Desktop/power-bi-quickstart` folder into **D:\\** drive before starting the lab.
+1. Connect to virtual lab environment.
 
-2. Open the **D:\\Demofiles\\Mod05** folder.
+2. Open the **Desktop\\power-bi-quickstart\\Demofiles\\Mod05** folder.
 
 3. Run **Setup.cmd** as **Administrator**.
 
@@ -34,7 +34,7 @@
 
 9. In the **Get Data** dialog box, click **Excel**, and then click **Connect**.
 
-10. In the **Open** dialog box, navigate to **D:\\Demofiles\\Mod05\\Demo**, click **Adventure Works Sales Data.xlsx**, and then click **Open**.
+10. In the **Open** dialog box, navigate to **Desktop\\power-bi-quickstart\\Demofiles\\Mod05\\Demo**, click **Adventure Works Sales Data.xlsx**, and then click **Open**.
 
 11. In the **Navigator** dialog box, select the **DimCurrency**, **DimCustomer**, **DimDate**, **DimProduct**, **DimPromotion**, **DimSalesTerritory**, and **FactInternetSales** check boxes, and then click **Load**.
 
@@ -104,7 +104,7 @@
 
 44. In the diagram, point out that the relationship icon next to **FactInternetSales** is now a star icon.
 
-45. On the **File** menu, click **Save**, and save the file to the **D:\\Demofiles\\Mod05\\Demo** folder as **Adventure Works Sales 5.pbix**.
+45. On the **File** menu, click **Save**, and save the file to the **Desktop\\power-bi-quickstart\\Demofiles\\Mod05\\Demo** folder as **Adventure Works Sales 5.pbix**.
 
 46. Leave Power BI Desktop open for the next demonstration.
 

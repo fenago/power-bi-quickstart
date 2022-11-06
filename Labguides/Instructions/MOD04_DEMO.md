@@ -13,7 +13,7 @@
 
 ### Demo 1: Using APPLIED STEPS
 
-1. Ensure that you have copied all folders from `Desktop/power-bi-quickstart` folder into **D:\\** drive before starting the lab.
+1. Connect to virtual lab environment.
 
 2. On the taskbar, click **Power BI Desktop**.
 
@@ -83,7 +83,7 @@
 
 2. In the **Get Data** dialog box, click **Excel**, and then click **Connect**.
 
-3. In the **Open** dialog box, browse to the **D:\\Demofiles\\Mod04\\Demo** folder, click **Sales Matrix.xlsx**, and then click **Open**.
+3. In the **Open** dialog box, browse to the **Desktop\\power-bi-quickstart\\Demofiles\\Mod04\\Demo** folder, click **Sales Matrix.xlsx**, and then click **Open**.
 
 4. In the **Navigator** dialog box, select the **Sales** check box, and then click **Transform Data**.
 
@@ -155,7 +155,7 @@
 
 38. Click the tallest column in the **Bikes** group. This now breaks down the sales by year.
 
-39. Save the file report as **AdventureWorks Sales 4.pbix** to **D:\\Demofiles\\Mod04\\Demo**, as this will be used for the next demonstration.
+39. Save the file report as **AdventureWorks Sales 4.pbix** to **Desktop\\power-bi-quickstart\\Demofiles\\Mod04\\Demo**, as this will be used for the next demonstration.
 
 40. Leave Power BI Desktop open for the next demonstration.
 

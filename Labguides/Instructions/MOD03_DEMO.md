@@ -17,16 +17,6 @@
 
 #### Import Data from an Excel File
 
-1. Ensure that you have copied all folders from `Desktop/power-bi-quickstart` folder into **D:\\** drive before starting the lab.
-
-2. Open the **D:\\Demofiles\\Mod03** folder.
-
-3. Run **Setup.cmd** as **Administrator**.
-
-4. Optionally if prompted to continue this operation, type **Y**, and then press Enter.
-
-5. When the script completes, press any key to close the window.
-
 6. On the taskbar, click **Power BI Desktop**.
 
 7. To close the getting started window, at the top-right of the window, click **X**.
@@ -35,7 +25,7 @@
 
 9. In the **Get Data** dialog box, click **Excel**, and then click **Connect**.
 
-10. In the **Open** dialog box, navigate to **D:\\Demofiles\\Mod03\\Demo**, click **Adventure Works Sales.xlsx**, and then click **Open**.
+10. In the **Open** dialog box, navigate to **Desktop\\power-bi-quickstart\\Demofiles\\Mod03\\Demo**, click **Adventure Works Sales.xlsx**, and then click **Open**.
 
 11. In the **Navigator** window, click **SalesPerson** to show a preview of the data. Use the horizontal scrollbar to display the columns, select the **SalesPerson** check box, and then click **Load**.
 
@@ -47,7 +37,7 @@
 
 2. In the **Get Data** dialog box, click **Text/CSV**, and then click **Connect**.
 
-3. In the **Open** dialog box, navigate to **D:\\Demofiles\\Mod03\\Demo**, click **Adventure Works Sales.csv**, and then click **Open**.
+3. In the **Open** dialog box, navigate to **Desktop\\power-bi-quickstart\\Demofiles\\Mod03\\Demo**, click **Adventure Works Sales.csv**, and then click **Open**.
 
 4. In the preview window, drag the lower-right corner to enlarge the window and display more of the data, and then click **Load**.
 
@@ -56,7 +46,7 @@
 
 5. In the **FIELDS** pane, expand the **Adventure Works Sales** table to show the columns. Mention that the two tables from different sources are now available to use together in a report.
 
-6. On the **File** menu, click **Save As**, name the report **Adventure Works Sales 3**, and then save to the **D:\\Demofiles\\Mod03\\Demo** folder.
+6. On the **File** menu, click **Save As**, name the report **Adventure Works Sales 3**, and then save to the **Desktop\\power-bi-quickstart\\Demofiles\\Mod03\\Demo** folder.
 
 7. Leave Power BI open for the next demonstration.
 

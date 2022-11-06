@@ -17,12 +17,7 @@
 
 #### Task 1: Prepare the Environment
 
-1. Ensure that you have copied all folders from `Desktop/power-bi-quickstart` folder into **D:\\** drive before starting the lab.
-
-2. In the **D:\\Labfiles\\Lab06\\Starter** folder, right-click **Setup.cmd**, and then click **Run as administrator**.
-
-3. When the script completes, press any key to close the window.
-
+Lab environment is already setup.
 
 #### Task 2: Connect to Existing Data
 
@@ -34,7 +29,7 @@
 
 3. On the **File** menu, point to **Open**, and then click **Project/Solution**.
 
-4. In the **Open Project** dialog box, browse to the **D:\\Labfiles\\Lab06\\Starter\\Project** folder, and then double-click **Project.ssmssln**.
+4. In the **Open Project** dialog box, browse to the **Desktop\\power-bi-quickstart\\Labfiles\\Lab06\\Starter\\Project** folder, and then double-click **Project.ssmssln**.
 
 ![](./images/10.png)
 
@@ -94,7 +89,7 @@
 
 26. On the **File** menu, click **Save**.
 
-27. In the **Save As** dialog box, navigate to **D:\\Labfiles\\Lab06\\Starter**, in the **File name** box, type **AdventureWorksLT Sales 6.pbix**, and then click **Save**.
+27. In the **Save As** dialog box, navigate to **Desktop\\power-bi-quickstart\\Labfiles\\Lab06\\Starter**, in the **File name** box, type **AdventureWorksLT Sales 6.pbix**, and then click **Save**.
 
 #### Task 3: Shape Data
 
@@ -200,7 +195,7 @@
 
 #### Connect to a Database in SQL Database and Import Data
 
-1. Open the **D:\\Labfiles\\Lab06** folder.
+1. Open the **Desktop\\power-bi-quickstart\\Labfiles\\Lab06** folder.
 
 2. Run **Setup.cmd** as **Administrator**.
 
@@ -210,7 +205,7 @@
 
 4. Start **Microsoft SQL Server Management Studio 18**, and then connect to the **localhost** database engine instance by using Windows® authentication.
 
-5. In the **D:\\Labfiles\\Lab06\\Demo** folder, open the **Demo.ssmssln** solution.
+5. In the **Desktop\\power-bi-quickstart\\Labfiles\\Lab06\\Demo** folder, open the **Demo.ssmssln** solution.
 
 6. In Solution Explorer, expand **Queries**, and then open the **1 - Charts.sql** script file.
 

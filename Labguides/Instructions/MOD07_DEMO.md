@@ -13,7 +13,7 @@
 
 #### Connect to data from tables in a database in SQL Database
 
-1. Ensure that you have copied all folders from `Desktop/power-bi-quickstart` folder into **D:\\** drive before starting the lab.
+1. Connect to virtual lab environment.
 
 2. On the Taskbar, click **Power BI Desktop**.
 

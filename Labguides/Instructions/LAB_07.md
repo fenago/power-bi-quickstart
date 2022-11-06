@@ -13,15 +13,7 @@
 
 #### Task 1: Prepare the lab environment
 
-1. Ensure that you have copied all folders from `Desktop/power-bi-quickstart` folder into **D:\\** drive before starting the lab.
-
-2. In File Explorer, in the **D:\\Labfiles\\Lab07\\Starter** folder, right-click **Setup.cmd**, and then click **Run as administrator**.
-
-![](./images/s1.png)
-
-3. When the script completes, press any key to close the window.
-
-![](./images/s2.png)
+Lab environment is already setup.
 
 #### Task 2: Direct connectivity from the Power BI Desktop
 
@@ -70,4 +62,4 @@
 
 15. On the **File** menu, click **Save**.
 
-16. In the **Save As** dialog box, go to the **D:\\Labfiles\\Lab07\\Starter** folder, in the **File name** box, type **Sales Orders**, and then click **Save**.
+16. In the **Save As** dialog box, go to the **Desktop\\power-bi-quickstart\\Labfiles\\Lab07\\Starter** folder, in the **File name** box, type **Sales Orders**, and then click **Save**.
