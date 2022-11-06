@@ -8,7 +8,7 @@ BEGIN
 END
 GO
 
-RESTORE DATABASE [AdventureWorksDW] FROM  DISK = N'D:\SetupFiles\AdventureWorksDW.bak' WITH  REPLACE,
+RESTORE DATABASE [AdventureWorksDW] FROM  DISK = N'C:\SetupFiles\AdventureWorksDW.bak' WITH  REPLACE,
 MOVE N'AdventureWorksDW_Data' TO N'$(SUBDIR)SetupFiles\AdventureWorksDW_Data.mdf', 
 MOVE N'AdventureWorksDW_Log' TO N'$(SUBDIR)SetupFiles\AdventureWorksDW_log.ldf'
 GO
@@ -23,7 +23,7 @@ BEGIN
 END
 GO
 
-RESTORE DATABASE [AdventureWorks] FROM  DISK = N'D:\SetupFiles\AdventureWorks.bak' WITH  REPLACE,
+RESTORE DATABASE [AdventureWorks] FROM  DISK = N'C:\SetupFiles\AdventureWorks.bak' WITH  REPLACE,
 MOVE N'AdventureWorks2012_Data' TO N'$(SUBDIR)SetupFiles\AdventureWorks_Data.mdf', 
 MOVE N'AdventureWorks2012_Log' TO N'$(SUBDIR)SetupFiles\AdventureWorks_log.ldf'
 GO
