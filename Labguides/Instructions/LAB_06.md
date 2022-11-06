@@ -197,12 +197,6 @@ Lab environment is already setup.
 
 1. Open the **Desktop\\power-bi-quickstart\\Labfiles\\Lab06** folder.
 
-2. Run **Setup.cmd** as **Administrator**.
-
-3. When the script completes, press any key to close the window.
-
-![](./images/s2.png)
-
 4. Start **Microsoft SQL Server Management Studio 18**, and then connect to the **localhost** database engine instance by using Windows® authentication.
 
 5. In the **Desktop\\power-bi-quickstart\\Labfiles\\Lab06\\Demo** folder, open the **Demo.ssmssln** solution.

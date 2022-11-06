@@ -20,12 +20,6 @@
 
 2. Open the **Desktop\\power-bi-quickstart\\Demofiles\\Mod05** folder.
 
-3. Run **Setup.cmd** as **Administrator**.
-
-4. Optionally if prompted to continue this operation, type **Y**, and then press Enter.
-
-5. When the script completes, press any key to close the window.
-
 6. On the Taskbar, click **Power BI Desktop**.
 
 7. To close the getting started window, at the top-right of the window, click **X**.
