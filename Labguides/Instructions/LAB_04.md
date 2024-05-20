@@ -58,6 +58,10 @@ Lab environment is already setup.
 
 1. In the **Queries \[2\]** pane, click **Europe** to show the data preview if this is not already displayed.
 
+**Note:** You can also open **Queries \[2\]** pane as show below. Click `Europe` in the **Data** pane and select edit query:
+
+![](./images/query.png)
+
 2. Right-click the **ProductKey** column, and click **Remove**.
 
 ![](./images/s38.png)
@@ -114,7 +118,7 @@ Lab environment is already setup.
 
 1. In the **Queries \[2\]** pane, click **Europe**.
 
-2. On the **Home** tab, in the **Combine** group, click **Append Queries**.
+2. In the **Combine** group, click **Append Queries**.
 
 ![](./images/s43.png)
 
@@ -140,7 +144,7 @@ Lab environment is already setup.
 
 9. In Power Query Editor, in the **Queries \[3\]** pane, click **Europe**.
 
-10. On the **Home** tab, in the **Combine** group, click **Merge Queries**.
+10. In the **Combine** group, click **Merge Queries**.
 
 ![](./images/s47.png)
 

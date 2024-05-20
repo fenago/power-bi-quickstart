@@ -46,7 +46,7 @@
 
 17. In the **Manage relationships** dialog box, click **New**.
 
-18. In the **Create relationship** dialog box, in the top table list, click **FactInternetSales**. When the table preview appears below, click the **OrderDateKey** column.
+18. In the **New relationship** dialog box, in the top table list, click **FactInternetSales**. When the table preview appears below, click the **OrderDateKey** column.
 
 19. In the bottom table list, click **DimDate**. When the table preview appears below, click the **DateKey** column.
 
@@ -90,7 +90,7 @@
 
 39. In the **Manage relationships** dialog box, click **New**.
 
-40. In the **Create relationship** dialog box, in the top table list, click **FactInternetSales** and in the data preview, click the **CustomerKey** column.
+40. In the **New relationship** dialog box, in the top table list, click **FactInternetSales** and in the data preview, click the **CustomerKey** column.
 
 41. In the bottom table list, click **DimCustomer**, and in the data preview, click **CustomerKey**.
 

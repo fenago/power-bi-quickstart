@@ -51,7 +51,7 @@ Lab environment is already setup.
 
 ![](./images/s51.png)
 
-17. In the **Create relationship** dialog box, in the top table list, click **FactInternetSales**. When the table preview appears below, click the **OrderDateKey** column.
+17. In the **New relationship** dialog box, in the top table list, click **FactInternetSales**. When the table preview appears below, click the **OrderDateKey** column.
 
 18. In the bottom table list, click **DimDate**. When the table preview appears below, click the **DateKey** column.
 
@@ -89,7 +89,7 @@ Lab environment is already setup.
 
 ![](./images/s52.png)
 
-34. In the **Delete Relationship** dialog box, click **Delete**.
+34. In the **Delete Relationship** dialog box, click **Yes**.
 
 ![](./images/s53.png)
 
@@ -97,7 +97,7 @@ Lab environment is already setup.
 
 36. In the **Manage relationships** dialog box, click **New**.
 
-37. In the **Create relationship** dialog box, in the top table list, click **FactInternetSales**, and in the data preview, click **CustomerKey**.
+37. In the **New relationship** dialog box, in the top table list, click **FactInternetSales**, and in the data preview, click **CustomerKey**.
 
 38. In the bottom table list, click **DimCustomer**, and in the data preview, click **CustomerKey**.
 
