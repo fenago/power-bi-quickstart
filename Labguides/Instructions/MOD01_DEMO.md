@@ -124,7 +124,7 @@
 
 13. In the **VISUALIZATIONS** pane, click **Data**.
 
-14. In the **Data** pane, expand **DimDate**, and drag the **EnglishMonthName** to the **Axis** property.
+14. In the **Data** pane, expand **DimDate**, and drag the **EnglishMonthName** to the **X-axis** property.
 
 15. Grab the resizer on the column chart to widen the chart so that the month names display clearly.
 

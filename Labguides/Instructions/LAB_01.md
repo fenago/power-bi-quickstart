@@ -70,7 +70,7 @@ Lab environment is already setup.
 
 ![](./images/s9.png)
 
-2. Expand **DimDate**, and drag the **EnglishDayNameOfWeek** field to the **Axis** property.
+2. Expand **DimDate**, and drag the **EnglishDayNameOfWeek** field to the **X-axis** property.
 
 ![](./images/s10.png)
 
@@ -90,7 +90,7 @@ Lab environment is already setup.
 
 8. Under **DimDate**, drag the **CalendarQuarter** field onto the chart. Notice that there is only one column.
 
-9. In the **VISUALIZATIONS** pane, click **Data**. Drag the **CalendarQuarter** field from **Value** to **Axis**.
+9. In the **VISUALIZATIONS** pane, click **Data**. Drag the **CalendarQuarter** field from **Y-axis** to **X-axis**.
 
 10. Click **Format**, and expand **Title**.
 
@@ -98,15 +98,11 @@ Lab environment is already setup.
 
 12. Next to **Alignment**, click the **Center** icon.
 
-13. Search **Show all** as shown below and set to **On**:
+![](./images/salign.png)
 
-![](./images/s11.png)
+13. Move the chart to the right of the **Sales by Day of Week** chart.
 
-After that change colors, for **1**, select **red**, for **2**, select **blue**, and for **3**, select **yellow**.
-
-![](./images/s12.png)
-
-14. Move the chart to the right of the **Sales by Day of Week** chart, and expand it so both charts are the same height.
+14. Expand the chart as well so both charts are the same height.
 
 15. In the **Data** pane, expand **DimSalesTerritory**, and drag the **SalesTerritoryCountry** column onto the report canvas under the **Sales by Day of Week** chart.
 

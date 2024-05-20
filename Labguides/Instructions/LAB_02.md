@@ -95,17 +95,17 @@ Lab environment is already setup.
 
 ![](./images/s22.png)
 
-2. In the **Data** pane, under **Sales** **vSalesPerson**, drag the **FirstName** field to the **Axis** box in the **VISUALIZATIONS** pane.
+2. In the **Data** pane, under **Sales** **vSalesPerson**, drag the **FirstName** field to the **X-axis** box in the **VISUALIZATIONS** pane.
 
-3. Drag the **SalesYTD** field to the **Value** box. The chart will populate with the data.
+3. Drag the **SalesYTD** field to the **Y-axis** box. The chart will populate with the data.
 
 4. On the chart in the report, click and drag the sizer on the right-hand side of the chart to widen the chart and display all the salespeople.
 
 5. Ensure the chart has focus, and then in the **VISUALIZATIONS** pane, click **Format**.
 
-6. Expand **Colors**, then toggle **Show all** to **On**.
+6. Expand **Columns** > **Colors**.
 
-7. Change the color for **Linda**, **Jae**, and **Michael** to red.
+7. Change the color to **Purple**:
 
 ![](./images/s23.png)
 
@@ -119,9 +119,9 @@ Lab environment is already setup.
 
 11. Click the report canvas, then in the **VISUALIZATIONS** pane, click **Stacked column chart** to add it to the report. The chart should be located under the previous charts.
 
-12. In the **Data** pane, expand **Top 10 Selling Products**, drag the **Product** field to the **Axis** box in the **VISUALIZATIONS** pane.
+12. In the **Data** pane, expand **Top 10 Selling Products**, drag the **Product** field to the **X-axis** box in the **VISUALIZATIONS** pane.
 
-13. Drag the **LineTotal** field to the **Value** box. The chart will populate with the data.
+13. Drag the **LineTotal** field to the **Y-axis** box. The chart will populate with the data.
 
 14. Click the **Top 10 Selling Products** chart to give it focus, then in the **VISUALIZATIONS** pane, click **Donut chart**. Note how easy it is to switch to a different chart type.
 
