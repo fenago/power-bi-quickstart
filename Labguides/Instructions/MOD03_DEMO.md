@@ -19,7 +19,9 @@
 
 6. On the taskbar, click **Power BI Desktop**.
 
-7. To close the getting started window, at the top-right of the window, click **X**.
+7. Click **New** > **Report**:
+
+![](./images/new.png)
 
 8. In the **Power BI Desktop** window, click **Get data**.
 
@@ -44,7 +46,7 @@
 ![](./images/24.png)
 
 
-5. In the **FIELDS** pane, expand the **Adventure Works Sales** table to show the columns. Mention that the two tables from different sources are now available to use together in a report.
+5. In the **Data** pane, expand the **Adventure Works Sales** table to show the columns. Mention that the two tables from different sources are now available to use together in a report.
 
 6. On the **File** menu, click **Save As**, name the report **Adventure Works Sales 3**, and then save to the **Desktop\\power-bi-quickstart\\Demofiles\\Mod03\\Demo** folder.
 

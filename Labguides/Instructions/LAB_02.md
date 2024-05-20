@@ -22,7 +22,9 @@ Lab environment is already setup.
 
 1. On the Taskbar, click **Power BI Desktop**.
 
-2. To close the getting started window, at the top-right of the window, click **X**.
+2. Click **New** > **Report**:
+
+![](./images/new.png)
 
 3. On the **Power BI Desktop** window, in the left-hand pane, click **Get data**.
 
@@ -42,7 +44,7 @@ Lab environment is already setup.
 
 ![](./images/s17.png)
 
-9. In the **FIELDS** pane, expand **Sales vSalesPerson** to view all the columns.
+9. In the **Data** pane, expand **Sales vSalesPerson** to view all the columns.
 
 ![](./images/s18.png)
 
@@ -54,7 +56,7 @@ Lab environment is already setup.
 
 12. If the **Connection settings dialog box** appears, ensure **Import** is selected, and then click **OK**.
 
-13. In the **FIELDS** pane, expand **Sales.vStoreWithDemographics** to view all the columns.
+13. In the **Data** pane, expand **Sales.vStoreWithDemographics** to view all the columns.
 
 ![](./images/s19.png)
 
@@ -80,7 +82,7 @@ Lab environment is already setup.
 
 ![](./images/s21.png)
 
-19. In the **FIELDS** pane, expand **Query1** to view all columns.
+19. In the **Data** pane, expand **Query1** to view all columns.
 
 20. Right-click **Query1**, click **Rename**, type **Top 10 Selling Products**, and then press Enter.
 
@@ -93,7 +95,7 @@ Lab environment is already setup.
 
 ![](./images/s22.png)
 
-2. In the **FIELDS** pane, under **Sales** **vSalesPerson**, drag the **FirstName** field to the **Axis** box in the **VISUALIZATIONS** pane.
+2. In the **Data** pane, under **Sales** **vSalesPerson**, drag the **FirstName** field to the **Axis** box in the **VISUALIZATIONS** pane.
 
 3. Drag the **SalesYTD** field to the **Value** box. The chart will populate with the data.
 
@@ -109,7 +111,7 @@ Lab environment is already setup.
 
 8. Click the report canvas then in the **VISUALIZATIONS** pane, click **Pie chart**. Drag the pie chart to the right of the bar chart, or below if there is not enough space.
 
-9. In the **FIELDS** pane, under **Sales** **vStoreWithDemographics**, drag the **Specialty** field to the **Legend** box in the **VISUALIZATIONS** pane.
+9. In the **Data** pane, under **Sales** **vStoreWithDemographics**, drag the **Specialty** field to the **Legend** box in the **VISUALIZATIONS** pane.
 
 10. Drag the **NumberEmployees** field to the **Values** box. The chart will populate with the data and should display three pie sections.
 
@@ -117,7 +119,7 @@ Lab environment is already setup.
 
 11. Click the report canvas, then in the **VISUALIZATIONS** pane, click **Stacked column chart** to add it to the report. The chart should be located under the previous charts.
 
-12. In the **FIELDS** pane, expand **Top 10 Selling Products**, drag the **Product** field to the **Axis** box in the **VISUALIZATIONS** pane.
+12. In the **Data** pane, expand **Top 10 Selling Products**, drag the **Product** field to the **Axis** box in the **VISUALIZATIONS** pane.
 
 13. Drag the **LineTotal** field to the **Value** box. The chart will populate with the data.
 
@@ -127,11 +129,11 @@ Lab environment is already setup.
 
 15. On the chart, grab the sizer on the right-hand side of the donut chart to widen the chart to display all the product names in full.
 
-16. In the **FIELDS** pane, under **Sales vStoreWithDemographics**, click and drag the **AnnualSales** field directly onto the report canvas. See how this automatically creates a bar chart.
+16. In the **Data** pane, under **Sales vStoreWithDemographics**, click and drag the **AnnualSales** field directly onto the report canvas. See how this automatically creates a bar chart.
 
-17. In the **FIELDS** pane, select the **AnnualRevenue** check box, and note that this adds the field to the bar chart.
+17. In the **Data** pane, select the **AnnualRevenue** check box, and note that this adds the field to the bar chart.
 
-18. In the **FIELDS** pane, next to the **AnnualRevenue**, click the ellipsis (**...**) , and click **Rename**. Type **Annual Revenue**, and then press Enter.
+18. In the **Data** pane, next to the **AnnualRevenue**, click the ellipsis (**...**) , and click **Rename**. Type **Annual Revenue**, and then press Enter.
 
 19. Repeat Step 18 to rename the **AnnualSales** field to **Annual Sales**. Note that the names in the title and legend of the bar chart update accordingly.
 

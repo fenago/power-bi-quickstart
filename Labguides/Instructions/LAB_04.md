@@ -25,7 +25,9 @@ Lab environment is already setup.
 
 2. On the Taskbar, click **Power BI Desktop**.
 
-3. To close the getting started window, at the top-right of the window, click **X**.
+3. Click **New** > **Report**:
+
+![](./images/new.png)
 
 5. In the **Power BI Desktop** window, click **Get data**.
 

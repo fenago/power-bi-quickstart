@@ -14,7 +14,9 @@
 
 6. On the Taskbar, click **Power BI Desktop**.
 
-7. To close the getting started window, at the top-right of the window, click **X**.
+7. Click **New** > **Report**:
+
+![](./images/new.png)
 
 8. In the **Power BI Desktop** window, click **Open other reports**.
 

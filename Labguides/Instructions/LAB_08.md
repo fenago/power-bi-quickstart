@@ -18,7 +18,9 @@ Lab environment is already setup.
 
 1. On the Taskbar, click **Power BI Desktop**.
 
-2. To close the getting started window, at the top-right of the window, click **X**.
+2. Click **New** > **Report**:
+
+![](./images/new.png)
 
 3. In the **Power BI Desktop** window, click **Open other reports**.
 

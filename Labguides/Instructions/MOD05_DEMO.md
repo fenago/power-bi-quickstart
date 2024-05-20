@@ -22,7 +22,9 @@
 
 6. On the Taskbar, click **Power BI Desktop**.
 
-7. To close the getting started window, at the top-right of the window, click **X**.
+7. Click **New** > **Report**:
+
+![](./images/new.png)
 
 8. In the **Power BI Desktop** window, click **Get data**.
 
@@ -110,14 +112,14 @@
 
 1. In Power BI Desktop, in the Views list on the left side of the window, click **Report**.
 
-2. In the **FIELDS** pane, right-click **FactInternetSales**, and then click **New measure**.
+2. In the **Data** pane, right-click **FactInternetSales**, and then click **New measure**.
 
 3. In the formula bar, highlight **Measure =**, type the following script, and then press Enter:
     ```
     TotalSales = SUM(FactInternetSales[SalesAmount])
     ```
 
-4. In the **FIELDS** pane, right-click **FactInternetSales**, and then click **New column**.
+4. In the **Data** pane, right-click **FactInternetSales**, and then click **New column**.
 
 5. In the formula bar, highlight **Column =**, type the following script:
     ```
@@ -126,7 +128,7 @@
 
 6. Point out that the **TotalSales** measure has been used in the formula, and then press Enter.
 
-7. In the **FIELDS** pane, select the **European Sales** check box to add it to the report.
+7. In the **Data** pane, select the **European Sales** check box to add it to the report.
 
 8. In the **VISUALIZATIONS** pane, click **Gauge**, and then click **Format**.
 
@@ -144,7 +146,7 @@
 
 1. In Power BI Desktop, in the view pane, click **Data** to open the data view.
 
-2. In the **FIELDS** pane, click **DimCustomer** to select the table, and preview the data.
+2. In the **Data** pane, click **DimCustomer** to select the table, and preview the data.
 
 3. Right-click **DimCustomer**, and click **New column**.
 
@@ -157,9 +159,9 @@
 
 5. If the new column is not visible, scroll to the right of the table. Note the new **FullName** column in the table.
 
-6. In the **FIELDS** pane, point out the icon next to the new column, which indicates that this has been created using a DAX formula.
+6. In the **Data** pane, point out the icon next to the new column, which indicates that this has been created using a DAX formula.
 
-7. In the **FIELDS** pane, right-click **DimCustomer**, and then click **New column**.
+7. In the **Data** pane, right-click **DimCustomer**, and then click **New column**.
 
 8. In the formula bar, highlight **Column =**, type the following script, and then press Enter:
     ```
@@ -186,7 +188,7 @@
 
 ![](./images/30.png)
 
-15. In the **FIELDS** pane, note the new table.
+15. In the **Data** pane, note the new table.
 
 ![](./images/31.png)
 
@@ -197,12 +199,12 @@
     MostRecentOrder = MAX(FactInternetSales[OrderDateKey])
     ```
 
-18. In the **FIELDS** pane, note the icon next to the measure, to indicate that this is a calculated field.
+18. In the **Data** pane, note the icon next to the measure, to indicate that this is a calculated field.
 
-19. In the **FIELDS** pane, click the **MostRecentOrder** field.
+19. In the **Data** pane, click the **MostRecentOrder** field.
 
 20. On the **Modeling** tab, in the **Properties** group, click **Home Table: DimCountry**, and click **FactInternetSales**. This moves the measure so that it resides in the **FactInternetSales** table.
 
-21. In the **FIELDS** pane, note that the **MostRecentOrder** measure now appears under **FactInternetSales**.
+21. In the **Data** pane, note that the **MostRecentOrder** measure now appears under **FactInternetSales**.
 
 22. Close Power BI Desktop, saving any changes.

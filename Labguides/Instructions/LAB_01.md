@@ -26,7 +26,9 @@ Lab environment is already setup.
 
 ![](./images/s3.png)
 
-3. To close the getting started window, at the top-right of the window, click **X**.
+3. Click **New** > **Report**:
+
+![](./images/new.png)
 
 4. On the **Power BI Desktop** screen appears, click **Get data**.
 
@@ -41,6 +43,8 @@ Lab environment is already setup.
 ![](./images/s5.png)
 
 8. If the **SQL Server database** dialog box appears, leave the default settings unchanged, and then click **Connect**.
+
+![](./images/s6_0.png)
 
 9. If the **Encryption Support** dialog box appears, click **OK**.
 
@@ -62,7 +66,7 @@ Lab environment is already setup.
 
 #### Task 2: Add Visualizations to the Report
 
-1. In the **FIELDS** pane, expand **FactInternetSales**, and drag the **SalesAmount** field onto the report canvas to create a column chart.
+1. In the **Data** pane, expand **FactInternetSales**, and drag the **SalesAmount** field onto the report canvas to create a column chart.
 
 ![](./images/s9.png)
 
@@ -82,11 +86,11 @@ Lab environment is already setup.
 
 ![](./images/align.png)
 
-7. In the **FIELDS** pane, under **FactInternetSales**, drag the **SalesAmount** field onto the report canvas to create a column chart.
+7. In the **Data** pane, under **FactInternetSales**, drag the **SalesAmount** field onto the report canvas to create a column chart.
 
 8. Under **DimDate**, drag the **CalendarQuarter** field onto the chart. Notice that there is only one column.
 
-9. In the **VISUALIZATIONS** pane, click **Fields**. Drag the **CalendarQuarter** field from **Value** to **Axis**.
+9. In the **VISUALIZATIONS** pane, click **Data**. Drag the **CalendarQuarter** field from **Value** to **Axis**.
 
 10. Click **Format**, and expand **Title**.
 
@@ -104,7 +108,7 @@ After that change colors, for **1**, select **red**, for **2**, select **blue**,
 
 14. Move the chart to the right of the **Sales by Day of Week** chart, and expand it so both charts are the same height.
 
-15. In the **FIELDS** pane, expand **DimSalesTerritory**, and drag the **SalesTerritoryCountry** column onto the report canvas under the **Sales by Day of Week** chart.
+15. In the **Data** pane, expand **DimSalesTerritory**, and drag the **SalesTerritoryCountry** column onto the report canvas under the **Sales by Day of Week** chart.
 
 **Note:** Map and filled map visuals option are disabled by default. You will need to enabled it first.
 
@@ -122,7 +126,7 @@ After that change colors, for **1**, select **red**, for **2**, select **blue**,
 
 19. Next to **Alignment**, click the **Center** icon.
 
-20. In the **FIELDS** pane, expand **DimCustomer**, and drag the **CommuteDistance** field onto the report canvas under the **Sales by Calendar Quarter** chart.
+20. In the **Data** pane, expand **DimCustomer**, and drag the **CommuteDistance** field onto the report canvas under the **Sales by Calendar Quarter** chart.
 
 21. Under **FactInternetSales**, drag the **SalesAmount** field onto the chart.
 

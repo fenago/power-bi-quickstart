@@ -25,7 +25,9 @@ Lab environment is already setup.
 
 2. On the Taskbar, click **Power BI Desktop**.
 
-3. To close the getting started window, at the top-right of the window, click **X**.
+3. Click **New** > **Report**:
+
+![](./images/new.png)
 
 5. In the **Power BI Desktop** window, click **Get data**.
 
@@ -153,7 +155,7 @@ Lab environment is already setup.
 
 1. In Power BI Desktop, in the views pane on the left-hand side, click **Data**.
 
-2. In the **FIELDS** pane, right-click **DimCustomer**, and then click **New column**.
+2. In the **Data** pane, right-click **DimCustomer**, and then click **New column**.
 
 ![](./images/s54.png)
 
@@ -202,21 +204,21 @@ Lab environment is already setup.
 
 ![](./images/s57.png)
 
-12. In the **FIELDS** pane, right-click **DimProductSubcategory**, and then click **New column**.
+12. In the **Data** pane, right-click **DimProductSubcategory**, and then click **New column**.
 
 13. In the formula bar, highlight **Column =**, type the following script, and then press Enter:
     ```
     MainCategory = RELATED(DimProductCategory[CategoryName])
     ```
 
-14. In the **FIELDS** pane, right-click **DimPromotion**, and then click **New column**.
+14. In the **Data** pane, right-click **DimPromotion**, and then click **New column**.
 
 15. In the formula bar, highlight **Column =**, type the following script, and then press Enter:
     ```
     PromotionLengthDays = DATEDIFF(DimPromotion[StartDate], DimPromotion[EndDate], DAY)
     ```
 
-16. In the **FIELDS** pane, right-click **FactInternetSales**, and then click **New column**.
+16. In the **Data** pane, right-click **FactInternetSales**, and then click **New column**.
 
 17. In the formula bar, highlight **Column =**, type the following script, and then press Enter:
     ```

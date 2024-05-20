@@ -12,7 +12,9 @@
 
 6. On the desktop, double-click **Power BI Desktop**.
 
-7. To close the getting started window, at the top-right of the window, click **X**.
+7. Click **New** > **Report**:
+
+![](./images/new.png)
 
 8. On the **Power BI Desktop** screen, click **Get data**.
 
@@ -74,13 +76,13 @@
 
 37. Wait until the data has successfully loaded.
 
-38. In the **FIELDS** pane, expand **FactInternetSales**, and then click **SalesAmount**.
+38. In the **Data** pane, expand **FactInternetSales**, and then click **SalesAmount**.
 
 39. On the **Modeling** tab, in the **Formatting** group, click **Format: Currency general**, point to **Currency**, and then click **$ English (United States)**.
 
 ![](./images/20.png)
 
-40. In the **FIELDS** pane, right-click **DimCustomer**, and then click **New column**.
+40. In the **Data** pane, right-click **DimCustomer**, and then click **New column**.
 
 41. In the formula bar, type **FullName = DimCustomer[FirstName] & " " & DimCustomer[LastName]**, and then press Enter.
 
@@ -94,7 +96,7 @@
 
 ### Demo 1: Visualizing Data with Power BI Desktop
 
-1. In Power BI Desktop, in the **FIELDS** pane, under **DimCustomer**, select **Gender**, and **MaritalStatus**.
+1. In Power BI Desktop, In the **Data** pane, under **DimCustomer**, select **Gender**, and **MaritalStatus**.
 
 2. Under **FactInternetSales**, select **SalesAmount**.
 
@@ -106,7 +108,7 @@
 
 5. Change **Alignment** to **Center**.
 
-6. In the **FIELDS** pane, expand **DimProduct**, and drag the **Color** field onto the report canvas to create a new table.
+6. In the **Data** pane, expand **DimProduct**, and drag the **Color** field onto the report canvas to create a new table.
 
 7. Under **FactInternetSales**, drag the **OrderQuantity** field onto the new table.
 
@@ -118,11 +120,11 @@
 
 11. Change **Alignment** to **Center**.
 
-12. In the **FIELDS** pane, under **FactInternetSales**, drag the **SalesAmount** field onto the report canvas to create a new column chart.
+12. In the **Data** pane, under **FactInternetSales**, drag the **SalesAmount** field onto the report canvas to create a new column chart.
 
-13. In the **VISUALIZATIONS** pane, click **Fields**.
+13. In the **VISUALIZATIONS** pane, click **Data**.
 
-14. In the **FIELDS** pane, expand **DimDate**, and drag the **EnglishMonthName** to the **Axis** property.
+14. In the **Data** pane, expand **DimDate**, and drag the **EnglishMonthName** to the **Axis** property.
 
 15. Grab the resizer on the column chart to widen the chart so that the month names display clearly.
 
