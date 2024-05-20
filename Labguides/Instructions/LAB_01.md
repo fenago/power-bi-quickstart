@@ -100,9 +100,15 @@ Lab environment is already setup.
 
 ![](./images/salign.png)
 
-13. Move the chart to the right of the **Sales by Day of Week** chart.
+13. Go to **Columns** > **Color** in the `Format` tab and apply conditional formatting by changing default color for lowest value and click `OK`:
 
-14. Expand the chart as well so both charts are the same height.
+![](./images/s11.png)
+
+![](./images/s11_1.png)
+
+![](./images/s11_2.png)
+
+14. Move the chart to the right of the **Sales by Day of Week** chart, and expand the chart as well so both charts are the same height.
 
 15. In the **Data** pane, expand **DimSalesTerritory**, and drag the **SalesTerritoryCountry** column onto the report canvas under the **Sales by Day of Week** chart.
 
