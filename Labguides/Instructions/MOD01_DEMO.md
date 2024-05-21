@@ -78,6 +78,8 @@
 
 38. In the **Data** pane, expand **FactInternetSales**, and then click **SalesAmount**.
 
+**Note:** If you don't see data in the **Date** pane, make sure to save above changes using query editor.
+
 39. On the **Modeling** tab, in the **Formatting** group, click **Format: Currency general**, point to **Currency**, and then click **$ English (United States)**.
 
 ![](./images/20.png)
